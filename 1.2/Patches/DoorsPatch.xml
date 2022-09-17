@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ClutterDoors</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Door"]</xpath>
+				<value>
+					<comps>
+						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+							<randomGraphics>
+								<li>Things/Building/Door/SimpleDoor</li>
+								<li>Things/Building/Door/VFE_DoorHorizontalLines_Mover</li>
+								<li>Things/Building/Door/VFE_DoorShades_Mover</li>
+								<li>Things/Building/Door/VFE_DoorSimpleAlternating_Mover</li>
+								<li>Things/Building/Door/VFE_DoorSimpleBar_Mover</li>
+								<li>Things/Building/Door/VFE_DoorSimpleHorizontalBars_Mover</li>
+								<li>Things/Building/Door/VFE_DoorSimpleOval_Mover</li>
+								<li>Things/Building/Door/VFE_DoorSimpleSmallBarsAndSquare_Mover</li>
+								<li>Things/Building/Door/VFE_DoorSimpleSmallSquares_Mover</li>
+							</randomGraphics>
+						</li>
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
+				<value>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Door/SimpleDoor</li>
+							<li>Things/Building/Door/VFE_DoorHorizontalLines_Mover</li>
+							<li>Things/Building/Door/VFE_DoorShades_Mover</li>
+							<li>Things/Building/Door/VFE_DoorSimpleAlternating_Mover</li>
+							<li>Things/Building/Door/VFE_DoorSimpleBar_Mover</li>
+							<li>Things/Building/Door/VFE_DoorSimpleHorizontalBars_Mover</li>
+							<li>Things/Building/Door/VFE_DoorSimpleOval_Mover</li>
+							<li>Things/Building/Door/VFE_DoorSimpleSmallBarsAndSquare_Mover</li>
+							<li>Things/Building/Door/VFE_DoorSimpleSmallSquares_Mover</li>
+						</randomGraphics>
+					</li>
+				</value>
+			</match>
+		</match>
+		<nomatch Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Door"]</xpath>
+				<value>
+					<comps>
+						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+							<randomGraphics>
+								<li>Things/Building/Door/DoorSimple_Mover</li>
+								<li>Things/Building/Door/VFE_DoorHorizontalLines_Mover</li>
+								<li>Things/Building/Door/VFE_DoorShades_Mover</li>
+								<li>Things/Building/Door/VFE_DoorSimpleAlternating_Mover</li>
+								<li>Things/Building/Door/VFE_DoorSimpleBar_Mover</li>
+								<li>Things/Building/Door/VFE_DoorSimpleHorizontalBars_Mover</li>
+								<li>Things/Building/Door/VFE_DoorSimpleOval_Mover</li>
+								<li>Things/Building/Door/VFE_DoorSimpleSmallBarsAndSquare_Mover</li>
+								<li>Things/Building/Door/VFE_DoorSimpleSmallSquares_Mover</li>
+							</randomGraphics>
+						</li>
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
+				<value>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Door/DoorSimple_Mover</li>
+							<li>Things/Building/Door/VFE_DoorHorizontalLines_Mover</li>
+							<li>Things/Building/Door/VFE_DoorShades_Mover</li>
+							<li>Things/Building/Door/VFE_DoorSimpleAlternating_Mover</li>
+							<li>Things/Building/Door/VFE_DoorSimpleBar_Mover</li>
+							<li>Things/Building/Door/VFE_DoorSimpleHorizontalBars_Mover</li>
+							<li>Things/Building/Door/VFE_DoorSimpleOval_Mover</li>
+							<li>Things/Building/Door/VFE_DoorSimpleSmallBarsAndSquare_Mover</li>
+							<li>Things/Building/Door/VFE_DoorSimpleSmallSquares_Mover</li>
+						</randomGraphics>
+					</li>
+				</value>
+			</match>
+		</nomatch>
+	</Operation>
+</Patch>

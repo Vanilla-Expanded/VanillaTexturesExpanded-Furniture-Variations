@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "OrbitalTradeBeacon"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "OrbitalTradeBeacon"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Misc/DropBeacon</li>
+							<li>Things/Building/Misc/DropBeacons/VFE_DropBeacon_Antenna</li>
+							<li>Things/Building/Misc/DropBeacons/VFE_DropBeacon_Dish</li>
+							<li>Things/Building/Misc/DropBeacons/VFE_DropBeacon_Straight</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "OrbitalTradeBeacon"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Misc/DropBeacon</li>
+						<li>Things/Building/Misc/DropBeacons/VFE_DropBeacon_Antenna</li>
+						<li>Things/Building/Misc/DropBeacons/VFE_DropBeacon_Dish</li>
+						<li>Things/Building/Misc/DropBeacons/VFE_DropBeacon_Straight</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "PassiveCooler"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "PassiveCooler"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Misc/PassiveCooler</li>
+							<li>Things/Building/Misc/DropBeacons/VFE_PassiveCooler_Hexagonal</li>
+							<li>Things/Building/Misc/DropBeacons/VFE_PassiveCooler_Hole</li>
+							<li>Things/Building/Misc/DropBeacons/VFE_PassiveCooler_Round</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "PassiveCooler"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Misc/PassiveCooler</li>
+						<li>Things/Building/Misc/PassiveCoolers/VFE_PassiveCooler_Hexagonal</li>
+						<li>Things/Building/Misc/PassiveCoolers/VFE_PassiveCooler_Hole</li>
+						<li>Things/Building/Misc/PassiveCoolers/VFE_PassiveCooler_Round</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<!--<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "GroundPenetratingScanner"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GroundPenetratingScanner"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Misc/GroundPenetratingScanner</li>
+							<li>Things/Building/Misc/GroundPenetratingScanners/VFE_GroundPenetratingScanner_Corners</li>
+							<li>Things/Building/Misc/GroundPenetratingScanners/VFE_GroundPenetratingScanner_Double</li>
+							<li>Things/Building/Misc/GroundPenetratingScanners/VFE_GroundPenetratingScanner_Smaller</li>
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GroundPenetratingScanner"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Misc/GroundPenetratingScanner</li>
+							<li>Things/Building/Misc/GroundPenetratingScanners/VFE_GroundPenetratingScanner_Corners</li>
+							<li>Things/Building/Misc/GroundPenetratingScanners/VFE_GroundPenetratingScanner_Double</li>
+							<li>Things/Building/Misc/GroundPenetratingScanners/VFE_GroundPenetratingScanner_Smaller</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>High Tech Laboratory Facilities (Continued)</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[defName = "MultiAnalyzer"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MultiAnalyzer"]</xpath>
+				<value>
+					<comps>
+						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+							<randomGraphics>
+								<li>Things/Building/Research/MultiAnalyzer</li>
+								<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Double</li>
+								<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Flat</li>
+								<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Tubes</li>
+								
+							</randomGraphics>
+						</li>
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MultiAnalyzer"]/comps</xpath>
+				<value>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Research/MultiAnalyzer</li>
+								<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Double</li>
+								<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Flat</li>
+								<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Tubes</li>
+							
+						</randomGraphics>
+					</li>
+				</value>
+			</match>
+		</match>
+		<nomatch Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[defName = "MultiAnalyzer"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MultiAnalyzer"]</xpath>
+				<value>
+					<comps>
+						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+							<randomGraphics>
+								<li>Things/Building/Misc/MultiAnalyzer</li>
+								<li>Things/Building/Misc/MultiAnalyzers/VFE_MultiAnalyzer_Asymmetrical</li>
+								<li>Things/Building/Misc/MultiAnalyzers/VFE_MultiAnalyzer_Double</li>
+								<li>Things/Building/Misc/MultiAnalyzers/VFE_MultiAnalyzer_DoubleTop</li>
+							</randomGraphics>
+						</li>
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "MultiAnalyzer"]/comps</xpath>
+				<value>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Misc/MultiAnalyzer</li>
+							<li>Things/Building/Misc/MultiAnalyzers/VFE_MultiAnalyzer_Asymmetrical</li>
+							<li>Things/Building/Misc/MultiAnalyzers/VFE_MultiAnalyzer_Double</li>
+							<li>Things/Building/Misc/MultiAnalyzers/VFE_MultiAnalyzer_DoubleTop</li>
+						</randomGraphics>
+					</li>
+				</value>
+			</match>
+		</nomatch>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "VitalsMonitor"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "VitalsMonitor"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Misc/VitalsMonitor</li>
+							<li>Things/Building/Misc/VitalsMonitors/VFE_VitalsMonitorBlack</li>
+							<li>Things/Building/Misc/VitalsMonitors/VFE_VitalsMonitorBlue</li>
+							<li>Things/Building/Misc/VitalsMonitors/VFE_VitalsMonitorBulbs</li>
+							<li>Things/Building/Misc/VitalsMonitors/VFE_VitalsMonitorButtons</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "VitalsMonitor"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Misc/VitalsMonitor</li>
+						<li>Things/Building/Misc/VitalsMonitors/VFE_VitalsMonitorBlack</li>
+						<li>Things/Building/Misc/VitalsMonitors/VFE_VitalsMonitorBlue</li>
+						<li>Things/Building/Misc/VitalsMonitors/VFE_VitalsMonitorBulbs</li>
+						<li>Things/Building/Misc/VitalsMonitors/VFE_VitalsMonitorButtons</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "ToolCabinet"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ToolCabinet"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Misc/ToolCabinet</li>
+							<li>Things/Building/Misc/ToolCabinets/VFE_ToolCabinetBigDrawer</li>
+							<li>Things/Building/Misc/ToolCabinets/VFE_ToolCabinetButtons</li>
+							<li>Things/Building/Misc/ToolCabinets/VFE_ToolCabinetGrilled</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ToolCabinet"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Misc/ToolCabinet</li>
+						<li>Things/Building/Misc/ToolCabinets/VFE_ToolCabinetBigDrawer</li>
+						<li>Things/Building/Misc/ToolCabinets/VFE_ToolCabinetButtons</li>
+						<li>Things/Building/Misc/ToolCabinets/VFE_ToolCabinetGrilled</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>

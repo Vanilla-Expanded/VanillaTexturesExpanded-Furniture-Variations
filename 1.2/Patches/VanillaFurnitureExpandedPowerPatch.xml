@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded - Power</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName = "VPE_NuclearGenerator"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "VPE_NuclearGenerator"]</xpath>
+						<value>
+							<comps>
+								<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+									<randomGraphics>
+										<li>Things/Building/Nuclear/NuclearPowerPlant</li>
+										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_CoolingTower</li>
+										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_Double</li>
+										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_LessPipes</li>
+									</randomGraphics>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "VPE_NuclearGenerator"]/comps</xpath>
+						<value>
+							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+								<randomGraphics>
+									<li>Things/Building/Nuclear/NuclearPowerPlant</li>
+										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_CoolingTower</li>
+										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_Double</li>
+										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_LessPipes</li>
+								</randomGraphics>
+							</li>
+						</value>
+					</match>
+				</li>
+				
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName = "VPE_HelixienPump"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "VPE_HelixienPump"]</xpath>
+						<value>
+							<comps>
+								<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+									<randomGraphics>
+										<li>Things/Building/GasMachines/HelixienPump</li>
+										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Double</li>
+										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Round</li>
+										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Triple</li>
+									</randomGraphics>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "VPE_HelixienPump"]/comps</xpath>
+						<value>
+							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+								<randomGraphics>
+									<li>Things/Building/GasMachines/HelixienPump</li>
+										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Double</li>
+										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Round</li>
+										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Triple</li>
+								</randomGraphics>
+							</li>
+						</value>
+					</match>
+				</li>
+				
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "ElectricCrematorium"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ElectricCrematorium"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/Crematorium</li>
+							<li>Things/Building/Production/Crematoriums/VFE_CrematoriumAssymetrical</li>
+							<li>Things/Building/Production/Crematoriums/VFE_CrematoriumChimneys</li>
+							<li>Things/Building/Production/Crematoriums/VFE_CrematoriumDouble</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ElectricCrematorium"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/Crematorium</li>
+						<li>Things/Building/Production/Crematoriums/VFE_CrematoriumAssymetrical</li>
+						<li>Things/Building/Production/Crematoriums/VFE_CrematoriumChimneys</li>
+						<li>Things/Building/Production/Crematoriums/VFE_CrematoriumDouble</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "SunLamp"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "SunLamp"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/LampSun</li>
+							<li>Things/Building/Production/Sunlamps/VFE_LampSun_Grill</li>
+							<li>Things/Building/Production/Sunlamps/VFE_LampSun_Hexagonal</li>
+							<li>Things/Building/Production/Sunlamps/VFE_LampSun_Ornate</li>
+							<li>Things/Building/Production/Sunlamps/VFE_LampSun_Oval</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "SunLamp"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/LampSun</li>
+						<li>Things/Building/Production/Sunlamps/VFE_LampSun_Grill</li>
+						<li>Things/Building/Production/Sunlamps/VFE_LampSun_Hexagonal</li>
+						<li>Things/Building/Production/Sunlamps/VFE_LampSun_Ornate</li>
+						<li>Things/Building/Production/Sunlamps/VFE_LampSun_Oval</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "ElectricSmelter"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ElectricSmelter"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/ElectricSmelter</li>
+							<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterChemfuel</li>
+							<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterCoil</li>
+							<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterDouble</li>
+							<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterUnderground</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ElectricSmelter"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/ElectricSmelter</li>
+						<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterChemfuel</li>
+						<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterCoil</li>
+						<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterDouble</li>
+						<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterUnderground</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "FabricationBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "FabricationBench"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/FabricationBench</li>
+							<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchComputer</li>
+							<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchDouble</li>
+							<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchSide</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "FabricationBench"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/FabricationBench</li>
+						<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchComputer</li>
+						<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchDouble</li>
+						<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchSide</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "BiofuelRefinery"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "BiofuelRefinery"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/Refinery</li>
+							<li>Things/Building/Production/Refineries/VFE_RefineryDouble</li>
+							<li>Things/Building/Production/Refineries/VFE_RefineryHorizontal</li>
+							<li>Things/Building/Production/Refineries/VFE_RefinerySide</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "BiofuelRefinery"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/Refinery</li>
+						<li>Things/Building/Production/Refineries/VFE_RefineryDouble</li>
+						<li>Things/Building/Production/Refineries/VFE_RefineryHorizontal</li>
+						<li>Things/Building/Production/Refineries/VFE_RefinerySide</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>High Tech Laboratory Facilities (Continued)</li>
+		</mods>
+
+		<match Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]</xpath>
+				<value>
+					<comps>
+						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+							<randomGraphics>
+								<li>Things/Building/Research/ResearchBenchHiTech</li>
+								<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechAlternate</li>
+								<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechDouble</li>
+								<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechInverted</li>
+							</randomGraphics>
+						</li>
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]/comps</xpath>
+				<value>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Research/ResearchBenchHiTech</li>
+							<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechAlternate</li>
+							<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechDouble</li>
+							<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechInverted</li>
+						</randomGraphics>
+					</li>
+				</value>
+			</match>
+		
+		</match>
+		<nomatch Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]</xpath>
+				<value>
+					<comps>
+						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+							<randomGraphics>
+								<li>Things/Building/Production/ResearchBenchHiTech</li>
+								<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechComputer</li>
+								<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechDouble</li>
+								<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechGreen</li>
+							</randomGraphics>
+						</li>
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]/comps</xpath>
+				<value>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/ResearchBenchHiTech</li>
+							<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechComputer</li>
+							<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechDouble</li>
+							<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechGreen</li>
+						</randomGraphics>
+					</li>
+				</value>
+			</match>
+		</nomatch>
+	</Operation>
+
+
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "SimpleResearchBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "SimpleResearchBench"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/ResearchBenchSimple</li>
+							<li>Things/Building/Production/ResearchBenchesSimple/VFE_ResearchBenchSimpleBeakers</li>
+							<li>Things/Building/Production/ResearchBenchesSimple/VFE_ResearchBenchSimpleCentrifuge</li>
+							<li>Things/Building/Production/ResearchBenchesSimple/VFE_ResearchBenchSimpleFolders</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "SimpleResearchBench"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/ResearchBenchSimple</li>
+						<li>Things/Building/Production/ResearchBenchesSimple/VFE_ResearchBenchSimpleBeakers</li>
+						<li>Things/Building/Production/ResearchBenchesSimple/VFE_ResearchBenchSimpleCentrifuge</li>
+						<li>Things/Building/Production/ResearchBenchesSimple/VFE_ResearchBenchSimpleFolders</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Brewery"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Brewery"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/TableBrewery</li>
+							<li>Things/Building/Production/TableBreweries/VFE_TableBreweryAlternate</li>
+							<li>Things/Building/Production/TableBreweries/VFE_TableBreweryDouble</li>
+							<li>Things/Building/Production/TableBreweries/VFE_TableBreweryMust</li>
+							<li>Things/Building/Production/TableBreweries/VFE_TableBreweryNoBarrelsOutside</li>
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Brewery"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/TableBrewery</li>
+						<li>Things/Building/Production/TableBreweries/VFE_TableBreweryAlternate</li>
+						<li>Things/Building/Production/TableBreweries/VFE_TableBreweryDouble</li>
+						<li>Things/Building/Production/TableBreweries/VFE_TableBreweryMust</li>
+						<li>Things/Building/Production/TableBreweries/VFE_TableBreweryNoBarrelsOutside</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "TableButcher"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "TableButcher"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/TableButcher</li>
+							<li>Things/Building/Production/TableButchers/VFE_TableButcherBlood</li>
+							<li>Things/Building/Production/TableButchers/VFE_TableButcherTools</li>
+							<li>Things/Building/Production/TableButchers/VFE_TableButcherTray</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "TableButcher"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/TableButcher</li>
+						<li>Things/Building/Production/TableButchers/VFE_TableButcherBlood</li>
+						<li>Things/Building/Production/TableButchers/VFE_TableButcherTools</li>
+						<li>Things/Building/Production/TableButchers/VFE_TableButcherTray</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "DrugLab"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "DrugLab"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/TableDrugLab</li>
+							<li>Things/Building/Production/TableDrugLabs/VFE_TableDrugLabAlternate</li>
+							<li>Things/Building/Production/TableDrugLabs/VFE_TableDrugLabBigJar</li>
+							<li>Things/Building/Production/TableDrugLabs/VFE_TableDrugLabDouble</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "DrugLab"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/TableDrugLab</li>
+						<li>Things/Building/Production/TableDrugLabs/VFE_TableDrugLabAlternate</li>
+						<li>Things/Building/Production/TableDrugLabs/VFE_TableDrugLabBigJar</li>
+						<li>Things/Building/Production/TableDrugLabs/VFE_TableDrugLabDouble</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "TableMachining"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "TableMachining"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/TableMachining</li>
+							<li>Things/Building/Production/TableMachinings/VFE_TableMachiningDrawers</li>
+							<li>Things/Building/Production/TableMachinings/VFE_TableMachiningGunPart</li>
+							<li>Things/Building/Production/TableMachinings/VFE_TableMachiningLathe</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "TableMachining"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/TableMachining</li>
+						<li>Things/Building/Production/TableMachinings/VFE_TableMachiningDrawers</li>
+						<li>Things/Building/Production/TableMachinings/VFE_TableMachiningGunPart</li>
+						<li>Things/Building/Production/TableMachinings/VFE_TableMachiningLathe</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "TableSculpting"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "TableSculpting"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/TableSculpting</li>
+							<li>Things/Building/Production/TableSculptings/VFE_TableSculptingInverted</li>
+							<li>Things/Building/Production/TableSculptings/VFE_TableSculptingRound</li>
+							<li>Things/Building/Production/TableSculptings/VFE_TableSculptingSingle</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "TableSculpting"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/TableSculpting</li>
+						<li>Things/Building/Production/TableSculptings/VFE_TableSculptingInverted</li>
+						<li>Things/Building/Production/TableSculptings/VFE_TableSculptingRound</li>
+						<li>Things/Building/Production/TableSculptings/VFE_TableSculptingSingle</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "FueledSmithy"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "FueledSmithy"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/TableSmithingFueled</li>
+							<li>Things/Building/Production/TableSmithings/VFE_TableSmithingFueledDouble</li>
+							<li>Things/Building/Production/TableSmithings/VFE_TableSmithingFueledFoundry</li>
+							<li>Things/Building/Production/TableSmithings/VFE_TableSmithingFueledModule</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "FueledSmithy"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/TableSmithingFueled</li>
+						<li>Things/Building/Production/TableSmithings/VFE_TableSmithingFueledDouble</li>
+						<li>Things/Building/Production/TableSmithings/VFE_TableSmithingFueledFoundry</li>
+						<li>Things/Building/Production/TableSmithings/VFE_TableSmithingFueledModule</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "ElectricSmithy"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ElectricSmithy"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/TableSmithingElectric</li>
+							<li>Things/Building/Production/TableSmithings/VFE_TableSmithingElectricDouble</li>
+							<li>Things/Building/Production/TableSmithings/VFE_TableSmithingElectricFoundry</li>
+							<li>Things/Building/Production/TableSmithings/VFE_TableSmithingElectricModule</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ElectricSmithy"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/TableSmithingElectric</li>
+						<li>Things/Building/Production/TableSmithings/VFE_TableSmithingElectricDouble</li>
+						<li>Things/Building/Production/TableSmithings/VFE_TableSmithingElectricFoundry</li>
+						<li>Things/Building/Production/TableSmithings/VFE_TableSmithingElectricModule</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "TableStonecutter"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "TableStonecutter"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/TableStonecutter</li>
+							<li>Things/Building/Production/TableStonecutters/VFE_TableStonecutterGrinder</li>
+							<li>Things/Building/Production/TableStonecutters/VFE_TableStonecutterSide</li>
+							<li>Things/Building/Production/TableStonecutters/VFE_TableStonecutterSideInverted</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "TableStonecutter"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/TableStonecutter</li>
+						<li>Things/Building/Production/TableStonecutters/VFE_TableStonecutterGrinder</li>
+						<li>Things/Building/Production/TableStonecutters/VFE_TableStonecutterSide</li>
+						<li>Things/Building/Production/TableStonecutters/VFE_TableStonecutterSideInverted</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "FueledStove"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "FueledStove"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/TableStoveFueled</li>
+							<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledDouble</li>
+							<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledDoubleInverted</li>
+							<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledModule</li>
+							<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledSink</li>
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "FueledStove"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/TableStoveFueled</li>
+						<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledDouble</li>
+						<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledDoubleInverted</li>
+						<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledModule</li>
+						<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledSink</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "ElectricStove"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ElectricStove"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/TableStoveElectric</li>
+							<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricDouble</li>
+							<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricDoubleInverted</li>
+							<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricModule</li>
+							<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricSink</li>
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ElectricStove"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/TableStoveElectric</li>
+						<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricDouble</li>
+						<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricDoubleInverted</li>
+						<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricModule</li>
+						<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricSink</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "HandTailoringBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "HandTailoringBench"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/TableTailorHand</li>
+							<li>Things/Building/Production/TableTailors/VFE_TableTailorHandCloth</li>
+							<li>Things/Building/Production/TableTailors/VFE_TableTailorHandSpinningWheel</li>
+							<li>Things/Building/Production/TableTailors/VFE_TableTailorHandSpinningWheelAndBox</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "HandTailoringBench"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/TableTailorHand</li>
+						<li>Things/Building/Production/TableTailors/VFE_TableTailorHandCloth</li>
+						<li>Things/Building/Production/TableTailors/VFE_TableTailorHandSpinningWheel</li>
+						<li>Things/Building/Production/TableTailors/VFE_TableTailorHandSpinningWheelAndBox</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "ElectricTailoringBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ElectricTailoringBench"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Production/TableTailorElectric</li>
+							<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricBox</li>
+							<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricDouble</li>
+							<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricOrange</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ElectricTailoringBench"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Production/TableTailorElectric</li>
+						<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricBox</li>
+						<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricDouble</li>
+						<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricOrange</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>

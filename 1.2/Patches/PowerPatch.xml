@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "GeothermalGenerator"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GeothermalGenerator"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Power/GeothermalPlant</li>
+							<li>Things/Building/Power/GeothermalPlants/VFE_GeothermalPlant_Enclosed</li>
+							<li>Things/Building/Power/GeothermalPlants/VFE_GeothermalPlant_Hole</li>
+							<li>Things/Building/Power/GeothermalPlants/VFE_GeothermalPlant_Irregular</li>
+							<li>Things/Building/Power/GeothermalPlants/VFE_GeothermalPlant_Round</li>
+
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "GeothermalGenerator"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Power/GeothermalPlant</li>
+							<li>Things/Building/Power/GeothermalPlants/VFE_GeothermalPlant_Enclosed</li>
+							<li>Things/Building/Power/GeothermalPlants/VFE_GeothermalPlant_Hole</li>
+							<li>Things/Building/Power/GeothermalPlants/VFE_GeothermalPlant_Irregular</li>
+							<li>Things/Building/Power/GeothermalPlants/VFE_GeothermalPlant_Round</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "SolarGenerator"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "SolarGenerator"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Power/SolarCollector</li>
+							<li>Things/Building/Power/SolarCollectors/VFE_SolarCollector_FourHexagons</li>
+							<li>Things/Building/Power/SolarCollectors/VFE_SolarCollector_FourPanels</li>
+							<li>Things/Building/Power/SolarCollectors/VFE_SolarCollector_FullHexagonal</li>
+							<li>Things/Building/Power/SolarCollectors/VFE_SolarCollector_SinglePanel</li>
+
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "SolarGenerator"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Power/SolarCollector</li>
+							<li>Things/Building/Power/SolarCollectors/VFE_SolarCollector_FourHexagons</li>
+							<li>Things/Building/Power/SolarCollectors/VFE_SolarCollector_FourPanels</li>
+							<li>Things/Building/Power/SolarCollectors/VFE_SolarCollector_FullHexagonal</li>
+							<li>Things/Building/Power/SolarCollectors/VFE_SolarCollector_SinglePanel</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "WoodFiredGenerator"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "WoodFiredGenerator"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Power/WoodFiredGenerator</li>
+							<li>Things/Building/Power/Generators/VFE_WoodFiredGenerator_Centered</li>
+							<li>Things/Building/Power/Generators/VFE_WoodFiredGenerator_Double</li>
+							<li>Things/Building/Power/Generators/VFE_WoodFiredGenerator_OldStyle</li>
+							<li>Things/Building/Power/Generators/VFE_WoodFiredGenerator_Turbo</li>
+
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "WoodFiredGenerator"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Power/WoodFiredGenerator</li>
+							<li>Things/Building/Power/Generators/VFE_WoodFiredGenerator_Centered</li>
+							<li>Things/Building/Power/Generators/VFE_WoodFiredGenerator_Double</li>
+							<li>Things/Building/Power/Generators/VFE_WoodFiredGenerator_OldStyle</li>
+							<li>Things/Building/Power/Generators/VFE_WoodFiredGenerator_Turbo</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+		<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "ChemfuelPoweredGenerator"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ChemfuelPoweredGenerator"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Power/ChemfuelPoweredGenerator</li>
+							<li>Things/Building/Power/Generators/VFE_ChemfuelPoweredGenerator_Centered</li>
+							<li>Things/Building/Power/Generators/VFE_ChemfuelPoweredGenerator_Double</li>
+							<li>Things/Building/Power/Generators/VFE_ChemfuelPoweredGenerator_OldStyle</li>
+							<li>Things/Building/Power/Generators/VFE_ChemfuelPoweredGenerator_Turbo</li>
+
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ChemfuelPoweredGenerator"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Power/ChemfuelPoweredGenerator</li>
+							<li>Things/Building/Power/Generators/VFE_ChemfuelPoweredGenerator_Centered</li>
+							<li>Things/Building/Power/Generators/VFE_ChemfuelPoweredGenerator_Double</li>
+							<li>Things/Building/Power/Generators/VFE_ChemfuelPoweredGenerator_OldStyle</li>
+							<li>Things/Building/Power/Generators/VFE_ChemfuelPoweredGenerator_Turbo</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>
