@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Table1x2c"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Table1x2c"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/Table1x2</li>
+							<li>Things/Building/Furniture/Tables/AF_Table1x2_Alternate</li>
+							<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternateDrawers</li>
+							<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternateRound</li>
+							<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternateThreeParts</li>
+							<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternateDoubleLid</li>
+							<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternateLegs</li>
+							<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternateOval</li>
+							<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternatePattern</li>
+							<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternateRoundPatterns</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Table1x2c"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Table1x2</li>
+						<li>Things/Building/Furniture/Tables/AF_Table1x2_Alternate</li>
+						<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternateDrawers</li>
+						<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternateRound</li>
+						<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternateThreeParts</li>
+						<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternateDoubleLid</li>
+						<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternateLegs</li>
+						<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternateOval</li>
+						<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternatePattern</li>
+						<li>Things/Building/Furniture/Tables/AF_Table1x2_AlternateRoundPatterns</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Table2x2c"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Table2x2c"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/Table2x2</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternateDoubleLid</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternateDrawers</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternateLegs</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternateOval</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternatePatterns</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternateRound</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternateRoundPatterns</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternateThreeParts</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Table2x2c"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Table2x2</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternateDoubleLid</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternateDrawers</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternateLegs</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternateOval</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternatePatterns</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternateRound</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternateRoundPatterns</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x2AlternateThreeParts</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Table2x4c"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Table2x4c"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/Table2x4</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternateDoubleLid</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternateDrawers</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternateLegs</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternateOval</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternatePatterns</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternateRound</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternateRoundPatterns</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternateThreeParts</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Table2x4c"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Table2x2</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternateDoubleLid</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternateDrawers</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternateLegs</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternateOval</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternatePatterns</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternateRound</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternateRoundPatterns</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table2x4AlternateThreeParts</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Table3x3c"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Table3x3c"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/Table3x3</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternateDoubleLid</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternateDrawers</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternateLegs</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternateOval</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternatePatterns</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternateRound</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternateRoundPatterns</li>
+							<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternateThreeParts</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Table3x3c"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Table3x3</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternateDoubleLid</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternateDrawers</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternateLegs</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternateOval</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternatePatterns</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternateRound</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternateRoundPatterns</li>
+						<li>Things/Building/Furniture/Tables/VTE_Table3x3AlternateThreeParts</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Stool"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Stool"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/Stool</li>
+							<li>Things/Building/Furniture/Stools/VFE_StoolBarFourLegs</li>
+							<li>Things/Building/Furniture/Stools/VFE_StoolBarHybrid</li>
+							<li>Things/Building/Furniture/Stools/VFE_StoolBarOneLeg</li>
+							<li>Things/Building/Furniture/Stools/VFE_StoolDoubleLid</li>
+							<li>Things/Building/Furniture/Stools/VFE_StoolOval</li>
+							<li>Things/Building/Furniture/Stools/VFE_StoolPattern</li>
+							<li>Things/Building/Furniture/Stools/VFE_StoolRound</li>
+							<li>Things/Building/Furniture/Stools/VFE_StoolSmall</li>
+							<li>Things/Building/Furniture/Stools/VFE_StoolTwoLegs</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Stool"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Stool</li>
+						<li>Things/Building/Furniture/Stools/VFE_StoolBarFourLegs</li>
+						<li>Things/Building/Furniture/Stools/VFE_StoolBarHybrid</li>
+						<li>Things/Building/Furniture/Stools/VFE_StoolBarOneLeg</li>
+						<li>Things/Building/Furniture/Stools/VFE_StoolDoubleLid</li>
+						<li>Things/Building/Furniture/Stools/VFE_StoolOval</li>
+						<li>Things/Building/Furniture/Stools/VFE_StoolPattern</li>
+						<li>Things/Building/Furniture/Stools/VFE_StoolRound</li>
+						<li>Things/Building/Furniture/Stools/VFE_StoolSmall</li>
+						<li>Things/Building/Furniture/Stools/VFE_StoolTwoLegs</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "DiningChair"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "DiningChair"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/DiningChair</li>
+							<li>Things/Building/Furniture/Chairs/VFE_DiningChairNoBack</li>
+							<li>Things/Building/Furniture/Chairs/VFE_DiningChairOneLeg</li>
+							<li>Things/Building/Furniture/Chairs/VFE_DiningChairPattern</li>
+							<li>Things/Building/Furniture/Chairs/VFE_DiningChairSolidBack</li>
+							<li>Things/Building/Furniture/Chairs/VFE_DiningChairSquareBack</li>
+							<li>Things/Building/Furniture/Chairs/VFE_DiningChairSquareBackAlternate</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "DiningChair"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/DiningChair</li>
+						<li>Things/Building/Furniture/Chairs/VFE_DiningChairNoBack</li>
+						<li>Things/Building/Furniture/Chairs/VFE_DiningChairOneLeg</li>
+						<li>Things/Building/Furniture/Chairs/VFE_DiningChairPattern</li>
+						<li>Things/Building/Furniture/Chairs/VFE_DiningChairSolidBack</li>
+						<li>Things/Building/Furniture/Chairs/VFE_DiningChairSquareBack</li>
+						<li>Things/Building/Furniture/Chairs/VFE_DiningChairSquareBackAlternate</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Armchair"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Armchair"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/Armchair</li>
+							<li>Things/Building/Furniture/Armchairs/VFE_ArmchairClassy</li>
+							<li>Things/Building/Furniture/Armchairs/VFE_ArmchairModern</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Armchair"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Armchair</li>
+						<li>Things/Building/Furniture/Armchairs/VFE_ArmchairClassy</li>
+						<li>Things/Building/Furniture/Armchairs/VFE_ArmchairModern</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "EndTable"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "EndTable"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/EndTable</li>
+							<li>Things/Building/Furniture/EndTables/VFE_EndTableOld</li>
+							<li>Things/Building/Furniture/EndTables/VFE_EndTableOval</li>
+							<li>Things/Building/Furniture/EndTables/VFE_EndTableRound</li>
+							<li>Things/Building/Furniture/EndTables/VFE_EndTableSolid</li>
+							<li>Things/Building/Furniture/EndTables/VFE_EndTableLines</li>
+							<li>Things/Building/Furniture/EndTables/VFE_EndTableSimple</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "EndTable"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/EndTable</li>
+						<li>Things/Building/Furniture/EndTables/VFE_EndTableOld</li>
+						<li>Things/Building/Furniture/EndTables/VFE_EndTableOval</li>
+						<li>Things/Building/Furniture/EndTables/VFE_EndTableRound</li>
+						<li>Things/Building/Furniture/EndTables/VFE_EndTableSolid</li>
+						<li>Things/Building/Furniture/EndTables/VFE_EndTableLines</li>
+						<li>Things/Building/Furniture/EndTables/VFE_EndTableSimple</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Dresser"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Dresser"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/Dresser</li>
+							<li>Things/Building/Furniture/Dressers/VFE_DresserCurved</li>
+							<li>Things/Building/Furniture/Dressers/VFE_DresserDepressed</li>
+							<li>Things/Building/Furniture/Dressers/VFE_DresserGreyDrawer</li>
+							<li>Things/Building/Furniture/Dressers/VFE_DresserLargeDrawer</li>
+							<li>Things/Building/Furniture/Dressers/VFE_DresserPattern</li>
+
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Dresser"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Dresser</li>
+						<li>Things/Building/Furniture/Dressers/VFE_DresserCurved</li>
+						<li>Things/Building/Furniture/Dressers/VFE_DresserDepressed</li>
+						<li>Things/Building/Furniture/Dressers/VFE_DresserGreyDrawer</li>
+						<li>Things/Building/Furniture/Dressers/VFE_DresserLargeDrawer</li>
+						<li>Things/Building/Furniture/Dressers/VFE_DresserPattern</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Column"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Column"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/Column</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnLines</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnPlain</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnRound</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnRoundWithLines</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnSquares</li>
+							<li>Things/Building/Furniture/Columns/VFE_ColumnTwoLines</li>
+
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Column"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Column</li>
+						<li>Things/Building/Furniture/Columns/VFE_ColumnLines</li>
+						<li>Things/Building/Furniture/Columns/VFE_ColumnPlain</li>
+						<li>Things/Building/Furniture/Columns/VFE_ColumnRound</li>
+						<li>Things/Building/Furniture/Columns/VFE_ColumnRoundWithLines</li>
+						<li>Things/Building/Furniture/Columns/VFE_ColumnSquares</li>
+						<li>Things/Building/Furniture/Columns/VFE_ColumnTwoLines</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[@Name = "StandingLampBase"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name = "StandingLampBase"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/LampStanding</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingBox</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingCone</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingNarrowPost</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingNotShitty</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingSphere</li>
+							<li>Things/Building/Furniture/Lamps/VFE_LampStandingWidePost</li>
+
+
+
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name = "StandingLampBase"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/LampStanding</li>
+						<li>Things/Building/Furniture/Lamps/VFE_LampStandingBox</li>
+						<li>Things/Building/Furniture/Lamps/VFE_LampStandingCone</li>
+						<li>Things/Building/Furniture/Lamps/VFE_LampStandingNarrowPost</li>
+						<li>Things/Building/Furniture/Lamps/VFE_LampStandingNotShitty</li>
+						<li>Things/Building/Furniture/Lamps/VFE_LampStandingSphere</li>
+						<li>Things/Building/Furniture/Lamps/VFE_LampStandingWidePost</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "PlantPot"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "PlantPot"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/PlantPot</li>
+							<li>Things/Building/Furniture/PlantPots/VFE_PlantPotHexagonal</li>
+							<li>Things/Building/Furniture/PlantPots/VFE_PlantPotHexagonalInclined</li>
+							<li>Things/Building/Furniture/PlantPots/VFE_PlantPotLayered</li>
+							<li>Things/Building/Furniture/PlantPots/VFE_PlantPotRound</li>
+							<li>Things/Building/Furniture/PlantPots/VFE_PlantPotSquare</li>
+							<li>Things/Building/Furniture/PlantPots/VFE_PlantPotSquareInclined</li>
+
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "PlantPot"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/PlantPot</li>
+						<li>Things/Building/Furniture/PlantPots/VFE_PlantPotHexagonal</li>
+						<li>Things/Building/Furniture/PlantPots/VFE_PlantPotHexagonalInclined</li>
+						<li>Things/Building/Furniture/PlantPots/VFE_PlantPotLayered</li>
+						<li>Things/Building/Furniture/PlantPots/VFE_PlantPotRound</li>
+						<li>Things/Building/Furniture/PlantPots/VFE_PlantPotSquare</li>
+						<li>Things/Building/Furniture/PlantPots/VFE_PlantPotSquareInclined</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Shelf"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Shelf"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/Shelf</li>
+							<li>Things/Building/Furniture/Shelves/VFE_ShelfSquare</li>
+							<li>Things/Building/Furniture/Shelves/VFE_ShelfAlternate</li>
+							<li>Things/Building/Furniture/Shelves/VFE_ShelfRound</li>
+							<li>Things/Building/Furniture/Shelves/VFE_ShelfLines</li>
+
+
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Shelf"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Shelf</li>
+						<li>Things/Building/Furniture/Shelves/VFE_ShelfSquare</li>
+						<li>Things/Building/Furniture/Shelves/VFE_ShelfAlternate</li>
+						<li>Things/Building/Furniture/Shelves/VFE_ShelfRound</li>
+						<li>Things/Building/Furniture/Shelves/VFE_ShelfLines</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+	<!--<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "Bed"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Bed"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Furniture/Bed/Bed</li>
+							<li>Things/Building/Furniture/Beds/VFE_BedFlowers</li>
+
+
+
+
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "Bed"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Furniture/Bed/Bed</li>
+						<li>Things/Building/Furniture/Beds/VFE_BedFlowers</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>-->
+</Patch>
