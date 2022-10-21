@@ -38,37 +38,7 @@
 					</match>
 				</li>
 				
-				<!--<li Class="PatchOperationConditional">
-					<xpath>/Defs/ThingDef[defName = "VPE_HelixienPump"]/comps</xpath>
-					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VPE_HelixienPump"]</xpath>
-						<value>
-							<comps>
-								<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
-									<randomGraphics>
-										<li>Things/Building/GasMachines/HelixienPump</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Double</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Round</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Triple</li>
-									</randomGraphics>
-								</li>
-							</comps>
-						</value>
-					</nomatch>
-					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VPE_HelixienPump"]/comps</xpath>
-						<value>
-							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
-								<randomGraphics>
-									<li>Things/Building/GasMachines/HelixienPump</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Double</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Round</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Triple</li>
-								</randomGraphics>
-							</li>
-						</value>
-					</match>
-				</li>-->
+				
 				
 				<li Class="PatchOperationConditional">
 					<xpath>/Defs/ThingDef[defName = "VFE_AdvancedSolarGenerator"]/comps</xpath>
