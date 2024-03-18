@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Helixien Gas Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName = "VHGE_HelixienPump"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "VHGE_HelixienPump"]</xpath>
+						<value>
+							<comps>
+								<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+									<randomGraphics>
+										<li>Things/Building/GasMachines/HelixienPump</li>
+										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Double</li>
+										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Round</li>
+										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Triple</li>
+									</randomGraphics>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "VHGE_HelixienPump"]/comps</xpath>
+						<value>
+							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+								<randomGraphics>
+									<li>Things/Building/GasMachines/HelixienPump</li>
+										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Double</li>
+										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Round</li>
+										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Triple</li>
+								</randomGraphics>
+							</li>
+						</value>
+					</match>
+				</li>
+				
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

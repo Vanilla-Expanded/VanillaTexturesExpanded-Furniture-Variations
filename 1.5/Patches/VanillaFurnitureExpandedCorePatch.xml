@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName = "Table_LightEndTable"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "Table_LightEndTable"]</xpath>
+						<value>
+							<comps>
+								<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+									<randomGraphics>
+										<li>Things/Bedroom/LampEndTable/EndTableLamp</li>
+										<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Mirror</li>
+										<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Old</li>
+										<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Oval</li>
+										<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Round</li>
+										<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Solid</li>
+									</randomGraphics>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "Table_LightEndTable"]/comps</xpath>
+						<value>
+							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+								<randomGraphics>
+									<li>Things/Bedroom/LampEndTable/EndTableLamp</li>
+									<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Mirror</li>
+									<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Old</li>
+									<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Oval</li>
+									<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Round</li>
+									<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Solid</li>
+								</randomGraphics>
+							</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName = "Table_RoyalDresser"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "Table_RoyalDresser"]</xpath>
+						<value>
+							<comps>
+								<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+									<randomGraphics>
+										<li>Things/Bedroom/RoyalDresser/RoyalDresser</li>
+										<li>Things/Building/VFECore/RoyalDresser/VFE_RoyalDresser_Curved</li>
+										<li>Things/Building/VFECore/RoyalDresser/VFE_RoyalDresser_FourDoors</li>
+									</randomGraphics>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "Table_RoyalDresser"]/comps</xpath>
+						<value>
+							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+								<randomGraphics>
+									<li>Things/Bedroom/RoyalDresser/RoyalDresser</li>
+									<li>Things/Building/VFECore/RoyalDresser/VFE_RoyalDresser_Curved</li>
+									<li>Things/Building/VFECore/RoyalDresser/VFE_RoyalDresser_FourDoors</li>
+								</randomGraphics>
+							</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName = "Table_Wardrobe"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "Table_Wardrobe"]</xpath>
+						<value>
+							<comps>
+								<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+									<randomGraphics>
+										<li>Things/Bedroom/Wardrobe/Wardrobe</li>
+										<li>Things/Building/VFECore/Wardrobe/VFE_Wardrobe_Antique</li>
+										<li>Things/Building/VFECore/Wardrobe/VFE_Wardrobe_Complex</li>
+										<li>Things/Building/VFECore/Wardrobe/VFE_Wardrobe_ThreeDoors</li>
+									</randomGraphics>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName = "Table_Wardrobe"]/comps</xpath>
+						<value>
+							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+								<randomGraphics>
+									<li>Things/Bedroom/Wardrobe/Wardrobe</li>
+									<li>Things/Building/VFECore/Wardrobe/VFE_Wardrobe_Antique</li>
+									<li>Things/Building/VFECore/Wardrobe/VFE_Wardrobe_Complex</li>
+									<li>Things/Building/VFECore/Wardrobe/VFE_Wardrobe_ThreeDoors</li>
+								</randomGraphics>
+							</li>
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

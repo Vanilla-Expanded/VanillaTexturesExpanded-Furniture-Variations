@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "HorseshoesPin"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "HorseshoesPin"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Joy/HorseshoesPin</li>
+							<li>Things/Building/Joy/HorseshoesPins/VFE_HorseshoesPin_Banded</li>
+							<li>Things/Building/Joy/HorseshoesPins/VFE_HorseshoesPin_Nail</li>
+							<li>Things/Building/Joy/HorseshoesPins/VFE_HorseshoesPin_Stake</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "HorseshoesPin"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Joy/HorseshoesPin</li>
+						<li>Things/Building/Joy/HorseshoesPins/VFE_HorseshoesPin_Banded</li>
+						<li>Things/Building/Joy/HorseshoesPins/VFE_HorseshoesPin_Nail</li>
+						<li>Things/Building/Joy/HorseshoesPins/VFE_HorseshoesPin_Stake</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "ChessTable"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ChessTable"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Joy/ChessTable</li>
+							<li>Things/Building/Joy/Chesstables/VFE_ChessTable_Elegant</li>
+							<li>Things/Building/Joy/Chesstables/VFE_ChessTable_OneLeg</li>
+							<li>Things/Building/Joy/Chesstables/VFE_ChessTable_Round</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "ChessTable"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Joy/ChessTable</li>
+						<li>Things/Building/Joy/Chesstables/VFE_ChessTable_Elegant</li>
+						<li>Things/Building/Joy/Chesstables/VFE_ChessTable_OneLeg</li>
+						<li>Things/Building/Joy/Chesstables/VFE_ChessTable_Round</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "PokerTable"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "PokerTable"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Joy/PokerTable</li>
+							<li>Things/Building/Joy/Pokertables/VFE_PokerTable_Blue</li>
+							<li>Things/Building/Joy/Pokertables/VFE_PokerTable_BlueAndGreen</li>
+							<li>Things/Building/Joy/Pokertables/VFE_PokerTable_Green</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "PokerTable"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Joy/PokerTable</li>
+						<li>Things/Building/Joy/Pokertables/VFE_PokerTable_Blue</li>
+						<li>Things/Building/Joy/Pokertables/VFE_PokerTable_BlueAndGreen</li>
+						<li>Things/Building/Joy/Pokertables/VFE_PokerTable_Green</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "BilliardsTable"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "BilliardsTable"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Joy/BilliardsTable</li>
+							<li>Things/Building/Joy/Billiards/VFE_BilliardsTable_Pool</li>
+							<li>Things/Building/Joy/Billiards/VFE_BilliardsTable_Carom</li>
+							<li>Things/Building/Joy/Billiards/VFE_BilliardsTable_AirHockey</li>
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "BilliardsTable"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Joy/BilliardsTable</li>
+						<li>Things/Building/Joy/Billiards/VFE_BilliardsTable_Pool</li>
+						<li>Things/Building/Joy/Billiards/VFE_BilliardsTable_Carom</li>
+						<li>Things/Building/Joy/Billiards/VFE_BilliardsTable_AirHockey</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName = "TubeTelevision"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "TubeTelevision"]</xpath>
+			<value>
+				<comps>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Joy/TubeTelevision</li>
+							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Brown</li>
+							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Cream</li>
+							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Grey</li>
+							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Oval</li>
+
+						</randomGraphics>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "TubeTelevision"]/comps</xpath>
+			<value>
+				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+						<li>Things/Building/Joy/TubeTelevision</li>
+							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Brown</li>
+							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Cream</li>
+							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Grey</li>
+							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Oval</li>
+					</randomGraphics>
+				</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>

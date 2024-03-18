@@ -38,32 +38,33 @@
 					</match>
 				</li>
 				
+				
+				
 				<li Class="PatchOperationConditional">
-					<xpath>/Defs/ThingDef[defName = "VPE_HelixienPump"]/comps</xpath>
+					<xpath>/Defs/ThingDef[defName = "VFE_AdvancedSolarGenerator"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VPE_HelixienPump"]</xpath>
+						<xpath>/Defs/ThingDef[defName = "VFE_AdvancedSolarGenerator"]</xpath>
 						<value>
 							<comps>
 								<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 									<randomGraphics>
-										<li>Things/Building/GasMachines/HelixienPump</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Double</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Round</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Triple</li>
+										<li>Things/Building/Power/AdvancedSolarCollector/AdvancedSolarCollector</li>
+										<li>Things/Building/VFEPower/AdvancedSolarCollector/VFE_AdvancedSolar_Hexagonal</li>
+										<li>Things/Building/VFEPower/AdvancedSolarCollector/VFE_AdvancedSolar_Round</li>
+										
 									</randomGraphics>
 								</li>
 							</comps>
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VPE_HelixienPump"]/comps</xpath>
+						<xpath>/Defs/ThingDef[defName = "VFE_AdvancedSolarGenerator"]/comps</xpath>
 						<value>
 							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
-									<li>Things/Building/GasMachines/HelixienPump</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Double</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Round</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Triple</li>
+									<li>Things/Building/Power/AdvancedSolarCollector/AdvancedSolarCollector</li>
+										<li>Things/Building/VFEPower/AdvancedSolarCollector/VFE_AdvancedSolar_Hexagonal</li>
+										<li>Things/Building/VFEPower/AdvancedSolarCollector/VFE_AdvancedSolar_Round</li>
 								</randomGraphics>
 							</li>
 						</value>

@@ -31,6 +31,40 @@
 			</value>
 		</match>
 	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>High Tech Laboratory Facilities (Continued)</li>
+		</mods>
+		<nomatch Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[defName = "CommsConsole"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "CommsConsole"]</xpath>
+				<value>
+					<comps>
+						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+							<randomGraphics>
+								<li>Things/Building/Misc/CommsConsole</li>
+								<li>Things/Building/Misc/CommsConsoles/VFE_CommsConsole_FourDishes</li>
+								<li>Things/Building/Misc/CommsConsoles/VFE_CommsConsole_Double</li>
+							</randomGraphics>
+						</li>
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "CommsConsole"]/comps</xpath>
+				<value>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Misc/CommsConsole</li>
+							<li>Things/Building/Misc/CommsConsoles/VFE_CommsConsole_FourDishes</li>
+							<li>Things/Building/Misc/CommsConsoles/VFE_CommsConsole_Double</li>
+						</randomGraphics>
+					</li>
+				</value>
+			</match>
+		</nomatch>
+	</Operation>
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName = "PassiveCooler"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -62,7 +96,7 @@
 			</value>
 		</match>
 	</Operation>
-	<!--<Operation Class="PatchOperationConditional">
+	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName = "GroundPenetratingScanner"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/ThingDef[defName = "GroundPenetratingScanner"]</xpath>
@@ -71,10 +105,9 @@
 					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 						<randomGraphics>
 							<li>Things/Building/Misc/GroundPenetratingScanner</li>
-							<li>Things/Building/Misc/GroundPenetratingScanners/VFE_GroundPenetratingScanner_Corners</li>
-							<li>Things/Building/Misc/GroundPenetratingScanners/VFE_GroundPenetratingScanner_Double</li>
-							<li>Things/Building/Misc/GroundPenetratingScanners/VFE_GroundPenetratingScanner_Smaller</li>
-
+							<li>Things/Building/Misc/GroundScanner/GroundScannerAlpha</li>
+							<li>Things/Building/Misc/GroundScanner/GroundScannerBeta</li>
+							<li>Things/Building/Misc/GroundScanner/GroundScannerGamma</li>
 						</randomGraphics>
 					</li>
 				</comps>
@@ -86,14 +119,14 @@
 				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
 						<li>Things/Building/Misc/GroundPenetratingScanner</li>
-							<li>Things/Building/Misc/GroundPenetratingScanners/VFE_GroundPenetratingScanner_Corners</li>
-							<li>Things/Building/Misc/GroundPenetratingScanners/VFE_GroundPenetratingScanner_Double</li>
-							<li>Things/Building/Misc/GroundPenetratingScanners/VFE_GroundPenetratingScanner_Smaller</li>
+						<li>Things/Building/Misc/GroundScanner/GroundScannerAlpha</li>
+						<li>Things/Building/Misc/GroundScanner/GroundScannerBeta</li>
+						<li>Things/Building/Misc/GroundScanner/GroundScannerGamma</li>
 					</randomGraphics>
 				</li>
 			</value>
 		</match>
-	</Operation>-->
+	</Operation>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>High Tech Laboratory Facilities (Continued)</li>
@@ -110,7 +143,6 @@
 								<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Double</li>
 								<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Flat</li>
 								<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Tubes</li>
-								
 							</randomGraphics>
 						</li>
 					</comps>
@@ -122,10 +154,9 @@
 					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 						<randomGraphics>
 							<li>Things/Building/Research/MultiAnalyzer</li>
-								<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Double</li>
-								<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Flat</li>
-								<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Tubes</li>
-							
+							<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Double</li>
+							<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Flat</li>
+							<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Tubes</li>
 						</randomGraphics>
 					</li>
 				</value>
@@ -163,7 +194,6 @@
 			</match>
 		</nomatch>
 	</Operation>
-	
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName = "VitalsMonitor"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">

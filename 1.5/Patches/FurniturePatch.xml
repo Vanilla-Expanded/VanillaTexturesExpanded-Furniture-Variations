@@ -390,9 +390,9 @@
 		</match>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[@Name = "StandingLampBase"]/comps</xpath>
+		<xpath>/Defs/ThingDef[defName = "StandingLamp"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[@Name = "StandingLampBase"]</xpath>
+			<xpath>/Defs/ThingDef[defName = "StandingLamp"]</xpath>
 			<value>
 				<comps>
 					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
@@ -414,7 +414,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[@Name = "StandingLampBase"]/comps</xpath>
+			<xpath>/Defs/ThingDef[defName = "StandingLamp"]/comps</xpath>
 			<value>
 				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>

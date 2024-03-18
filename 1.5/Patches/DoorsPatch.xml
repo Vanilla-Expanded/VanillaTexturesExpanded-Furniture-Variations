@@ -1,8 +1,96 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>ClutterDoors</li>
+			<li>ClutterDoors (Continued)</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[defName = "Autodoor"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Autodoor"]</xpath>
+				<value>
+					<comps>
+						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+							<randomGraphics>
+								<li>Things/Building/Door/AutoDoor</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorA</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorB</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorC</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorD</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorE</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorF</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorG</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorH</li>
+							</randomGraphics>
+						</li>
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Autodoor"]/comps</xpath>
+				<value>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Door/AutoDoor</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorA</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorB</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorC</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorD</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorE</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorF</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorG</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorH</li>
+						</randomGraphics>
+					</li>
+				</value>
+			</match>
+		</match>
+		<nomatch Class="PatchOperationConditional">
+			<xpath>/Defs/ThingDef[defName = "Autodoor"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Autodoor"]</xpath>
+				<value>
+					<comps>
+						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+							<randomGraphics>
+								<li>Things/Building/Door/Autodoor_Mover</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorA</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorB</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorC</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorD</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorE</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorF</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorG</li>
+								<li>Things/Building/Autodoor/VFE_AutoDoorH</li>
+							</randomGraphics>
+						</li>
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Autodoor"]/comps</xpath>
+				<value>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Door/Autodoor_Mover</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorA</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorB</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorC</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorD</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorE</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorF</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorG</li>
+							<li>Things/Building/Autodoor/VFE_AutoDoorH</li>
+						</randomGraphics>
+					</li>
+				</value>
+			</match>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ClutterDoors (Continued)</li>
 		</mods>
 		<match Class="PatchOperationConditional">
 			<xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
