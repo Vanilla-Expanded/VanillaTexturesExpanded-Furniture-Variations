@@ -28,6 +28,9 @@
 		<li>brrainz.harmony</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>VanillaExpanded.VFECore</li>
+		<li>VanillaExpanded.VFEPower</li>
+		<li>VanillaExpanded.VFEProduction</li>
+		<li>VanillaExpanded.HelixienGas</li>
 	</loadAfter>
 	<description>Vanilla Textures Expanded - Variations is a standalone release in the Vanilla Textures Expanded series, aiming at providing a LOT of visual variety to your vanilla bases.
 
