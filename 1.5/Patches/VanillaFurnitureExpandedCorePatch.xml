@@ -6,42 +6,7 @@
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
-				<!-- TODO: Remove this specific entry when updating to 1.6, as the end table with a lamp is being removed. -->
-				<li Class="PatchOperationConditional">
-					<xpath>Defs/ThingDef[defName = "Table_LightEndTable"]/comps</xpath>
-					<nomatch Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[defName = "Table_LightEndTable"]</xpath>
-						<value>
-							<comps>
-								<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
-									<randomGraphics>
-										<li>Things/Bedroom/LampEndTable/EndTableLamp</li>
-										<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Mirror</li>
-										<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Old</li>
-										<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Oval</li>
-										<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Round</li>
-										<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Solid</li>
-									</randomGraphics>
-								</li>
-							</comps>
-						</value>
-					</nomatch>
-					<match Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[defName = "Table_LightEndTable"]/comps</xpath>
-						<value>
-							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
-								<randomGraphics>
-									<li>Things/Bedroom/LampEndTable/EndTableLamp</li>
-									<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Mirror</li>
-									<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Old</li>
-									<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Oval</li>
-									<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Round</li>
-									<li>Things/Building/VFECore/LampEndTable/VFE_EndTableLamp_Solid</li>
-								</randomGraphics>
-							</li>
-						</value>
-					</match>
-				</li>
+				
 
 				<!-- TODO: When updating to 1.6, remove the conditional and only keep the "match" branch. -->
 				<li Class="PatchOperationConditional">
