@@ -19,6 +19,12 @@
 										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_Double</li>
 										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_LessPipes</li>
 									</randomGraphics>
+									<optionalNames>
+										<li>Standard Nuclear Power Plant</li>
+										<li>Cooling Tower</li>
+										<li>Double</li>
+										<li>Less Pipes</li>
+									</optionalNames>
 								</li>
 							</comps>
 						</value>
@@ -29,17 +35,20 @@
 							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
 									<li>Things/Building/Nuclear/NuclearPowerPlant</li>
-										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_CoolingTower</li>
-										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_Double</li>
-										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_LessPipes</li>
+									<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_CoolingTower</li>
+									<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_Double</li>
+									<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_LessPipes</li>
 								</randomGraphics>
+								<optionalNames>
+									<li>Standard Nuclear Power Plant</li>
+									<li>Cooling Tower</li>
+									<li>Double</li>
+									<li>Less Pipes</li>
+								</optionalNames>
 							</li>
 						</value>
 					</match>
 				</li>
-				
-				
-				
 				<li Class="PatchOperationConditional">
 					<xpath>/Defs/ThingDef[defName = "VFE_AdvancedSolarGenerator"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
@@ -51,8 +60,12 @@
 										<li>Things/Building/Power/AdvancedSolarCollector/AdvancedSolarCollector</li>
 										<li>Things/Building/VFEPower/AdvancedSolarCollector/VFE_AdvancedSolar_Hexagonal</li>
 										<li>Things/Building/VFEPower/AdvancedSolarCollector/VFE_AdvancedSolar_Round</li>
-										
 									</randomGraphics>
+									<optionalNames>
+										<li>Standard Advanced Solar Generator</li>
+										<li>Hexagonal</li>
+										<li>Round</li>
+									</optionalNames>
 								</li>
 							</comps>
 						</value>
@@ -63,15 +76,18 @@
 							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
 									<li>Things/Building/Power/AdvancedSolarCollector/AdvancedSolarCollector</li>
-										<li>Things/Building/VFEPower/AdvancedSolarCollector/VFE_AdvancedSolar_Hexagonal</li>
-										<li>Things/Building/VFEPower/AdvancedSolarCollector/VFE_AdvancedSolar_Round</li>
+									<li>Things/Building/VFEPower/AdvancedSolarCollector/VFE_AdvancedSolar_Hexagonal</li>
+									<li>Things/Building/VFEPower/AdvancedSolarCollector/VFE_AdvancedSolar_Round</li>
 								</randomGraphics>
+								<optionalNames>
+									<li>Standard Advanced Solar Generator</li>
+									<li>Hexagonal</li>
+									<li>Round</li>
+								</optionalNames>
 							</li>
 						</value>
 					</match>
 				</li>
-				
-				
 			</operations>
 		</match>
 	</Operation>

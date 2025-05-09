@@ -19,6 +19,12 @@
 										<li>Things/Building/VFEProduction/VEF_ComponentFabricationBench/VEF_ComponentFabricationBenchComputer</li>
 										<li>Things/Building/VFEProduction/VEF_ComponentFabricationBench/VEF_ComponentFabricationBenchDouble</li>
 									</randomGraphics>
+									<optionalNames>
+										<li>Standard Component Fabrication bench</li>
+										<li>Chimneys</li>
+										<li>Computer</li>
+										<li>Double</li>
+									</optionalNames>
 								</li>
 							</comps>
 						</value>
@@ -29,15 +35,20 @@
 							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
 									<li>Things/Building/Workbenches/ComponentFabricationBench</li>
-										<li>Things/Building/VFEProduction/VEF_ComponentFabricationBench/VEF_ComponentFabricationBenchChimneys</li>
-										<li>Things/Building/VFEProduction/VEF_ComponentFabricationBench/VEF_ComponentFabricationBenchComputer</li>
-										<li>Things/Building/VFEProduction/VEF_ComponentFabricationBench/VEF_ComponentFabricationBenchDouble</li>
+									<li>Things/Building/VFEProduction/VEF_ComponentFabricationBench/VEF_ComponentFabricationBenchChimneys</li>
+									<li>Things/Building/VFEProduction/VEF_ComponentFabricationBench/VEF_ComponentFabricationBenchComputer</li>
+									<li>Things/Building/VFEProduction/VEF_ComponentFabricationBench/VEF_ComponentFabricationBenchDouble</li>
 								</randomGraphics>
+								<optionalNames>
+									<li>Standard Component Fabrication bench</li>
+									<li>Chimneys</li>
+									<li>Computer</li>
+									<li>Double</li>
+								</optionalNames>
 							</li>
 						</value>
 					</match>
 				</li>
-				
 				<li Class="PatchOperationConditional">
 					<xpath>/Defs/ThingDef[defName = "VFE_TableButcherElectric"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
@@ -51,6 +62,12 @@
 										<li>Things/Building/VFEProduction/VEF_TableButcherElectric/VEF_TableButcherElectricJars</li>
 										<li>Things/Building/VFEProduction/VEF_TableButcherElectric/VEF_TableButcherElectricTools</li>
 									</randomGraphics>
+									<optionalNames>
+										<li>Standard Electric Butcher Table</li>
+										<li>Double</li>
+										<li>Jars</li>
+										<li>Tools</li>
+									</optionalNames>
 								</li>
 							</comps>
 						</value>
@@ -61,15 +78,20 @@
 							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
 									<li>Things/Building/Workbenches/TableButcherElectric</li>
-										<li>Things/Building/VFEProduction/VEF_TableButcherElectric/VEF_TableButcherElectricDouble</li>
-										<li>Things/Building/VFEProduction/VEF_TableButcherElectric/VEF_TableButcherElectricJars</li>
-										<li>Things/Building/VFEProduction/VEF_TableButcherElectric/VEF_TableButcherElectricTools</li>
+									<li>Things/Building/VFEProduction/VEF_TableButcherElectric/VEF_TableButcherElectricDouble</li>
+									<li>Things/Building/VFEProduction/VEF_TableButcherElectric/VEF_TableButcherElectricJars</li>
+									<li>Things/Building/VFEProduction/VEF_TableButcherElectric/VEF_TableButcherElectricTools</li>
 								</randomGraphics>
+								<optionalNames>
+									<li>Standard Electric Butcher Table</li>
+									<li>Double</li>
+									<li>Jars</li>
+									<li>Tools</li>
+								</optionalNames>
 							</li>
 						</value>
 					</match>
 				</li>
-				
 				<li Class="PatchOperationConditional">
 					<xpath>/Defs/ThingDef[defName = "VFE_FueledSmelter"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
@@ -83,8 +105,14 @@
 										<li>Things/Building/VFEProduction/VEF_FueledSmelter/VEF_FueledSmelterChimneys</li>
 										<li>Things/Building/VFEProduction/VEF_FueledSmelter/VEF_FueledSmelterCoil</li>
 										<li>Things/Building/VFEProduction/VEF_FueledSmelter/VEF_FueledSmelterDouble</li>
-
 									</randomGraphics>
+									<optionalNames>
+										<li>Standard Fueled Smelter</li>
+										<li>Chemfuel</li>
+										<li>Chimneys</li>
+										<li>Coil</li>
+										<li>Double</li>
+									</optionalNames>
 								</li>
 							</comps>
 						</value>
@@ -95,16 +123,22 @@
 							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
 									<li>Things/Building/Workbenches/FueledSmelter</li>
-										<li>Things/Building/VFEProduction/VEF_FueledSmelter/VEF_FueledSmelterChemfuel</li>
-										<li>Things/Building/VFEProduction/VEF_FueledSmelter/VEF_FueledSmelterChimneys</li>
-										<li>Things/Building/VFEProduction/VEF_FueledSmelter/VEF_FueledSmelterCoil</li>
-										<li>Things/Building/VFEProduction/VEF_FueledSmelter/VEF_FueledSmelterDouble</li>
+									<li>Things/Building/VFEProduction/VEF_FueledSmelter/VEF_FueledSmelterChemfuel</li>
+									<li>Things/Building/VFEProduction/VEF_FueledSmelter/VEF_FueledSmelterChimneys</li>
+									<li>Things/Building/VFEProduction/VEF_FueledSmelter/VEF_FueledSmelterCoil</li>
+									<li>Things/Building/VFEProduction/VEF_FueledSmelter/VEF_FueledSmelterDouble</li>
 								</randomGraphics>
+								<optionalNames>
+									<li>Standard Fueled Smelter</li>
+									<li>Chemfuel</li>
+									<li>Chimneys</li>
+									<li>Coil</li>
+									<li>Double</li>
+								</optionalNames>
 							</li>
 						</value>
 					</match>
 				</li>
-				
 				<li Class="PatchOperationConditional">
 					<xpath>/Defs/ThingDef[defName = "VFE_TableMachiningLarge"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
@@ -117,8 +151,13 @@
 										<li>Things/Building/VFEProduction/VEF_TableMachiningLarge/VEF_TableMachiningLargeDouble</li>
 										<li>Things/Building/VFEProduction/VEF_TableMachiningLarge/VEF_TableMachiningLargeHorizontal</li>
 										<li>Things/Building/VFEProduction/VEF_TableMachiningLarge/VEF_TableMachiningLargeLathe</li>
-										
 									</randomGraphics>
+									<optionalNames>
+										<li>Standard Large Machining Table</li>
+										<li>Double</li>
+										<li>Horizontal</li>
+										<li>Lathe</li>
+									</optionalNames>
 								</li>
 							</comps>
 						</value>
@@ -129,15 +168,20 @@
 							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
 									<li>Things/Building/Workbenches/TableMachiningLarge</li>
-										<li>Things/Building/VFEProduction/VEF_TableMachiningLarge/VEF_TableMachiningLargeDouble</li>
-										<li>Things/Building/VFEProduction/VEF_TableMachiningLarge/VEF_TableMachiningLargeHorizontal</li>
-										<li>Things/Building/VFEProduction/VEF_TableMachiningLarge/VEF_TableMachiningLargeLathe</li>
+									<li>Things/Building/VFEProduction/VEF_TableMachiningLarge/VEF_TableMachiningLargeDouble</li>
+									<li>Things/Building/VFEProduction/VEF_TableMachiningLarge/VEF_TableMachiningLargeHorizontal</li>
+									<li>Things/Building/VFEProduction/VEF_TableMachiningLarge/VEF_TableMachiningLargeLathe</li>
 								</randomGraphics>
+								<optionalNames>
+									<li>Standard Large Machining Table</li>
+									<li>Double</li>
+									<li>Horizontal</li>
+									<li>Lathe</li>
+								</optionalNames>
 							</li>
 						</value>
 					</match>
 				</li>
-				
 				<li Class="PatchOperationConditional">
 					<xpath>/Defs/ThingDef[defName = "VFE_TableStoveLarge"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
@@ -150,8 +194,13 @@
 										<li>Things/Building/VFEProduction/VEF_TableStoveLarge/VEF_TableStoveLargeBasin</li>
 										<li>Things/Building/VFEProduction/VEF_TableStoveLarge/VEF_TableStoveLargeHorizontal</li>
 										<li>Things/Building/VFEProduction/VEF_TableStoveLarge/VEF_TableStoveLargeMicrowaves</li>
-										
 									</randomGraphics>
+									<optionalNames>
+										<li>Standard Large Stove</li>
+										<li>Basin</li>
+										<li>Horizontal</li>
+										<li>Microwaves</li>
+									</optionalNames>
 								</li>
 							</comps>
 						</value>
@@ -162,15 +211,20 @@
 							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
 									<li>Things/Building/Workbenches/TableStoveLarge</li>
-										<li>Things/Building/VFEProduction/VEF_TableStoveLarge/VEF_TableStoveLargeBasin</li>
-										<li>Things/Building/VFEProduction/VEF_TableStoveLarge/VEF_TableStoveLargeHorizontal</li>
-										<li>Things/Building/VFEProduction/VEF_TableStoveLarge/VEF_TableStoveLargeMicrowaves</li>
+									<li>Things/Building/VFEProduction/VEF_TableStoveLarge/VEF_TableStoveLargeBasin</li>
+									<li>Things/Building/VFEProduction/VEF_TableStoveLarge/VEF_TableStoveLargeHorizontal</li>
+									<li>Things/Building/VFEProduction/VEF_TableStoveLarge/VEF_TableStoveLargeMicrowaves</li>
 								</randomGraphics>
+								<optionalNames>
+									<li>Standard Large Stove</li>
+									<li>Basin</li>
+									<li>Horizontal</li>
+									<li>Microwaves</li>
+								</optionalNames>
 							</li>
 						</value>
 					</match>
 				</li>
-				
 				<li Class="PatchOperationConditional">
 					<xpath>/Defs/ThingDef[defName = "VFE_TableTailorLarge"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
@@ -183,8 +237,13 @@
 										<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargeBoxes</li>
 										<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargeDouble</li>
 										<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargePurple</li>
-										
 									</randomGraphics>
+									<optionalNames>
+										<li>Standard Large Tailoring Table</li>
+										<li>Boxes</li>
+										<li>Double</li>
+										<li>Purple</li>
+									</optionalNames>
 								</li>
 							</comps>
 						</value>
@@ -195,10 +254,16 @@
 							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
 									<li>Things/Building/Workbenches/TableTailorLarge</li>
-										<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargeBoxes</li>
-										<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargeDouble</li>
-										<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargePurple</li>
+									<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargeBoxes</li>
+									<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargeDouble</li>
+									<li>Things/Building/VFEProduction/VFE_TableTailorLarge/VFE_TableTailorLargePurple</li>
 								</randomGraphics>
+								<optionalNames>
+									<li>Standard Large Tailoring Table</li>
+									<li>Boxes</li>
+									<li>Double</li>
+									<li>Purple</li>
+								</optionalNames>
 							</li>
 						</value>
 					</match>

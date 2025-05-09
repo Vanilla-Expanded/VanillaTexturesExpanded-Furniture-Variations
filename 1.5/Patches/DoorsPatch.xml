@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>ClutterDoors (Continued)</li>
@@ -23,6 +22,17 @@
 								<li>Things/Building/Autodoor/VFE_AutoDoorG</li>
 								<li>Things/Building/Autodoor/VFE_AutoDoorH</li>
 							</randomGraphics>
+							<optionalNames>
+								<li>Standard Autodoor</li>
+								<li>A Autodoor Variation</li>
+								<li>B Autodoor Variation</li>
+								<li>C Autodoor Variation</li>
+								<li>D Autodoor Variation</li>
+								<li>E Autodoor Variation</li>
+								<li>F Autodoor Variation</li>
+								<li>G Autodoor Variation</li>
+								<li>H Autodoor Variation</li>
+							</optionalNames>
 						</li>
 					</comps>
 				</value>
@@ -42,6 +52,17 @@
 							<li>Things/Building/Autodoor/VFE_AutoDoorG</li>
 							<li>Things/Building/Autodoor/VFE_AutoDoorH</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Autodoor</li>
+							<li>A Autodoor Variation</li>
+							<li>B Autodoor Variation</li>
+							<li>C Autodoor Variation</li>
+							<li>D Autodoor Variation</li>
+							<li>E Autodoor Variation</li>
+							<li>F Autodoor Variation</li>
+							<li>G Autodoor Variation</li>
+							<li>H Autodoor Variation</li>
+						</optionalNames>
 					</li>
 				</value>
 			</match>
@@ -64,6 +85,17 @@
 								<li>Things/Building/Autodoor/VFE_AutoDoorG</li>
 								<li>Things/Building/Autodoor/VFE_AutoDoorH</li>
 							</randomGraphics>
+							<optionalNames>
+								<li>Standard Autodoor</li>
+								<li>A Autodoor Variation</li>
+								<li>B Autodoor Variation</li>
+								<li>C Autodoor Variation</li>
+								<li>D Autodoor Variation</li>
+								<li>E Autodoor Variation</li>
+								<li>F Autodoor Variation</li>
+								<li>G Autodoor Variation</li>
+								<li>H Autodoor Variation</li>
+							</optionalNames>
 						</li>
 					</comps>
 				</value>
@@ -83,6 +115,17 @@
 							<li>Things/Building/Autodoor/VFE_AutoDoorG</li>
 							<li>Things/Building/Autodoor/VFE_AutoDoorH</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Autodoor</li>
+							<li>A Autodoor Variation</li>
+							<li>B Autodoor Variation</li>
+							<li>C Autodoor Variation</li>
+							<li>D Autodoor Variation</li>
+							<li>E Autodoor Variation</li>
+							<li>F Autodoor Variation</li>
+							<li>G Autodoor Variation</li>
+							<li>H Autodoor Variation</li>
+						</optionalNames>
 					</li>
 				</value>
 			</match>
@@ -110,6 +153,17 @@
 								<li>Things/Building/Door/VFE_DoorSimpleSmallBarsAndSquare_Mover</li>
 								<li>Things/Building/Door/VFE_DoorSimpleSmallSquares_Mover</li>
 							</randomGraphics>
+							<optionalNames>
+								<li>Standard Door</li>
+								<li>Horizontal Lines</li>
+								<li>Shades</li>
+								<li>Alternating</li>
+								<li>Bar</li>
+								<li>Horizontal Bars</li>
+								<li>Oval</li>
+								<li>Small Bars and Square</li>
+								<li>Small Squares</li>
+							</optionalNames>
 						</li>
 					</comps>
 				</value>
@@ -129,6 +183,17 @@
 							<li>Things/Building/Door/VFE_DoorSimpleSmallBarsAndSquare_Mover</li>
 							<li>Things/Building/Door/VFE_DoorSimpleSmallSquares_Mover</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Door</li>
+							<li>Horizontal Lines</li>
+							<li>Shades</li>
+							<li>Alternating</li>
+							<li>Bar</li>
+							<li>Horizontal Bars</li>
+							<li>Oval</li>
+							<li>Small Bars and Square</li>
+							<li>Small Squares</li>
+						</optionalNames>
 					</li>
 				</value>
 			</match>
@@ -151,6 +216,17 @@
 								<li>Things/Building/Door/VFE_DoorSimpleSmallBarsAndSquare_Mover</li>
 								<li>Things/Building/Door/VFE_DoorSimpleSmallSquares_Mover</li>
 							</randomGraphics>
+							<optionalNames>
+								<li>Standard Door</li>
+								<li>Horizontal Lines</li>
+								<li>Shades</li>
+								<li>Alternating</li>
+								<li>Bar</li>
+								<li>Horizontal Bars</li>
+								<li>Oval</li>
+								<li>Small Bars and Square</li>
+								<li>Small Squares</li>
+							</optionalNames>
 						</li>
 					</comps>
 				</value>
@@ -170,6 +246,17 @@
 							<li>Things/Building/Door/VFE_DoorSimpleSmallBarsAndSquare_Mover</li>
 							<li>Things/Building/Door/VFE_DoorSimpleSmallSquares_Mover</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Door</li>
+							<li>Horizontal Lines</li>
+							<li>Shades</li>
+							<li>Alternating</li>
+							<li>Bar</li>
+							<li>Horizontal Bars</li>
+							<li>Oval</li>
+							<li>Small Bars and Square</li>
+							<li>Small Squares</li>
+						</optionalNames>
 					</li>
 				</value>
 			</match>

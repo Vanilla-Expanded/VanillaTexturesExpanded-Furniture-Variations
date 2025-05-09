@@ -13,6 +13,12 @@
 							<li>Things/Building/Misc/DropBeacons/VFE_DropBeacon_Dish</li>
 							<li>Things/Building/Misc/DropBeacons/VFE_DropBeacon_Straight</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Trade Beacon</li>
+							<li>Antenna</li>
+							<li>Dish</li>
+							<li>Straight</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -27,6 +33,12 @@
 						<li>Things/Building/Misc/DropBeacons/VFE_DropBeacon_Dish</li>
 						<li>Things/Building/Misc/DropBeacons/VFE_DropBeacon_Straight</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Trade Beacon</li>
+						<li>Antenna</li>
+						<li>Dish</li>
+						<li>Straight</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -47,6 +59,11 @@
 								<li>Things/Building/Misc/CommsConsoles/VFE_CommsConsole_FourDishes</li>
 								<li>Things/Building/Misc/CommsConsoles/VFE_CommsConsole_Double</li>
 							</randomGraphics>
+							<optionalNames>
+								<li>Standard Comms Console</li>
+								<li>Four Dishes</li>
+								<li>Double</li>
+							</optionalNames>
 						</li>
 					</comps>
 				</value>
@@ -60,6 +77,11 @@
 							<li>Things/Building/Misc/CommsConsoles/VFE_CommsConsole_FourDishes</li>
 							<li>Things/Building/Misc/CommsConsoles/VFE_CommsConsole_Double</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Comms Console</li>
+							<li>Four Dishes</li>
+							<li>Double</li>
+						</optionalNames>
 					</li>
 				</value>
 			</match>
@@ -78,6 +100,12 @@
 							<li>Things/Building/Misc/DropBeacons/VFE_PassiveCooler_Hole</li>
 							<li>Things/Building/Misc/DropBeacons/VFE_PassiveCooler_Round</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Passive Cooler</li>
+							<li>Hexagonal</li>
+							<li>Hole</li>
+							<li>Round</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -92,6 +120,12 @@
 						<li>Things/Building/Misc/PassiveCoolers/VFE_PassiveCooler_Hole</li>
 						<li>Things/Building/Misc/PassiveCoolers/VFE_PassiveCooler_Round</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Passive Cooler</li>
+						<li>Hexagonal</li>
+						<li>Hole</li>
+						<li>Round</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -109,6 +143,12 @@
 							<li>Things/Building/Misc/GroundScanner/GroundScannerBeta</li>
 							<li>Things/Building/Misc/GroundScanner/GroundScannerGamma</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Ground PenetratingS canner</li>
+							<li>Scanner Alpha</li>
+							<li>Scanner Beta</li>
+							<li>Scanner Gamma</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -123,6 +163,12 @@
 						<li>Things/Building/Misc/GroundScanner/GroundScannerBeta</li>
 						<li>Things/Building/Misc/GroundScanner/GroundScannerGamma</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Ground PenetratingS canner</li>
+						<li>Scanner Alpha</li>
+						<li>Scanner Beta</li>
+						<li>Scanner Gamma</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -144,6 +190,12 @@
 								<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Flat</li>
 								<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Tubes</li>
 							</randomGraphics>
+							<optionalNames>
+								<li>Standard MultiAnalyzer</li>
+								<li>Double</li>
+								<li>Flat</li>
+								<li>Tubes</li>
+							</optionalNames>
 						</li>
 					</comps>
 				</value>
@@ -158,6 +210,12 @@
 							<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Flat</li>
 							<li>Things/Building/Modded/HiTechMultianalyzer/VEF_HiTechMultiAnalyzer_Tubes</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard MultiAnalyzer</li>
+							<li>Double</li>
+							<li>Flat</li>
+							<li>Tubes</li>
+						</optionalNames>
 					</li>
 				</value>
 			</match>
@@ -175,6 +233,12 @@
 								<li>Things/Building/Misc/MultiAnalyzers/VFE_MultiAnalyzer_Double</li>
 								<li>Things/Building/Misc/MultiAnalyzers/VFE_MultiAnalyzer_DoubleTop</li>
 							</randomGraphics>
+							<optionalNames>
+								<li>Standard MultiAnalyzer</li>
+								<li>Asymmetrical</li>
+								<li>Double</li>
+								<li>Double Top</li>
+							</optionalNames>
 						</li>
 					</comps>
 				</value>
@@ -189,6 +253,12 @@
 							<li>Things/Building/Misc/MultiAnalyzers/VFE_MultiAnalyzer_Double</li>
 							<li>Things/Building/Misc/MultiAnalyzers/VFE_MultiAnalyzer_DoubleTop</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard MultiAnalyzer</li>
+							<li>Asymmetrical</li>
+							<li>Double</li>
+							<li>Double Top</li>
+						</optionalNames>
 					</li>
 				</value>
 			</match>
@@ -201,6 +271,7 @@
 			<value>
 				<comps>
 					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<useSouthOrientation>true</useSouthOrientation>
 						<randomGraphics>
 							<li>Things/Building/Misc/VitalsMonitor</li>
 							<li>Things/Building/Misc/VitalsMonitors/VFE_VitalsMonitorBlack</li>
@@ -208,6 +279,13 @@
 							<li>Things/Building/Misc/VitalsMonitors/VFE_VitalsMonitorBulbs</li>
 							<li>Things/Building/Misc/VitalsMonitors/VFE_VitalsMonitorButtons</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Vitals Monitor</li>
+							<li>Black</li>
+							<li>Blue</li>
+							<li>Bulbs</li>
+							<li>Buttons</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -216,6 +294,7 @@
 			<xpath>/Defs/ThingDef[defName = "VitalsMonitor"]/comps</xpath>
 			<value>
 				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<useSouthOrientation>true</useSouthOrientation>
 					<randomGraphics>
 						<li>Things/Building/Misc/VitalsMonitor</li>
 						<li>Things/Building/Misc/VitalsMonitors/VFE_VitalsMonitorBlack</li>
@@ -223,6 +302,13 @@
 						<li>Things/Building/Misc/VitalsMonitors/VFE_VitalsMonitorBulbs</li>
 						<li>Things/Building/Misc/VitalsMonitors/VFE_VitalsMonitorButtons</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Vitals Monitor</li>
+						<li>Black</li>
+						<li>Blue</li>
+						<li>Bulbs</li>
+						<li>Buttons</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -240,6 +326,12 @@
 							<li>Things/Building/Misc/ToolCabinets/VFE_ToolCabinetButtons</li>
 							<li>Things/Building/Misc/ToolCabinets/VFE_ToolCabinetGrilled</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Tool Cabinet</li>
+							<li>Big Drawer</li>
+							<li>Buttons</li>
+							<li>Grilled</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -254,6 +346,12 @@
 						<li>Things/Building/Misc/ToolCabinets/VFE_ToolCabinetButtons</li>
 						<li>Things/Building/Misc/ToolCabinets/VFE_ToolCabinetGrilled</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Tool Cabinet</li>
+						<li>Big Drawer</li>
+						<li>Buttons</li>
+						<li>Grilled</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>

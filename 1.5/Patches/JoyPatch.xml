@@ -13,6 +13,12 @@
 							<li>Things/Building/Joy/HorseshoesPins/VFE_HorseshoesPin_Nail</li>
 							<li>Things/Building/Joy/HorseshoesPins/VFE_HorseshoesPin_Stake</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Horseshoes Pin</li>
+							<li>Banded</li>
+							<li>Nail</li>
+							<li>Stake</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -27,6 +33,12 @@
 						<li>Things/Building/Joy/HorseshoesPins/VFE_HorseshoesPin_Nail</li>
 						<li>Things/Building/Joy/HorseshoesPins/VFE_HorseshoesPin_Stake</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Horseshoes Pin</li>
+						<li>Banded</li>
+						<li>Nail</li>
+						<li>Stake</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -44,6 +56,12 @@
 							<li>Things/Building/Joy/Chesstables/VFE_ChessTable_OneLeg</li>
 							<li>Things/Building/Joy/Chesstables/VFE_ChessTable_Round</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Chess Table</li>
+							<li>Elegant</li>
+							<li>One Leg</li>
+							<li>Round</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -58,6 +76,12 @@
 						<li>Things/Building/Joy/Chesstables/VFE_ChessTable_OneLeg</li>
 						<li>Things/Building/Joy/Chesstables/VFE_ChessTable_Round</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Chess Table</li>
+						<li>Elegant</li>
+						<li>One Leg</li>
+						<li>Round</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -75,6 +99,12 @@
 							<li>Things/Building/Joy/Pokertables/VFE_PokerTable_BlueAndGreen</li>
 							<li>Things/Building/Joy/Pokertables/VFE_PokerTable_Green</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Poker Table</li>
+							<li>Blue</li>
+							<li>Blue and Green</li>
+							<li>Green</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -89,6 +119,12 @@
 						<li>Things/Building/Joy/Pokertables/VFE_PokerTable_BlueAndGreen</li>
 						<li>Things/Building/Joy/Pokertables/VFE_PokerTable_Green</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Poker Table</li>
+						<li>Blue</li>
+						<li>Blue and Green</li>
+						<li>Green</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -106,6 +142,12 @@
 							<li>Things/Building/Joy/Billiards/VFE_BilliardsTable_Carom</li>
 							<li>Things/Building/Joy/Billiards/VFE_BilliardsTable_AirHockey</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Billiards Table</li>
+							<li>Pool</li>
+							<li>Carom</li>
+							<li>Air Hockey</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -120,6 +162,12 @@
 						<li>Things/Building/Joy/Billiards/VFE_BilliardsTable_Carom</li>
 						<li>Things/Building/Joy/Billiards/VFE_BilliardsTable_AirHockey</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Billiards Table</li>
+						<li>Pool</li>
+						<li>Carom</li>
+						<li>Air Hockey</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -137,8 +185,14 @@
 							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Cream</li>
 							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Grey</li>
 							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Oval</li>
-
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Tube Television</li>
+							<li>Brown</li>
+							<li>Cream</li>
+							<li>Grey</li>
+							<li>Oval</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -149,11 +203,18 @@
 				<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
 						<li>Things/Building/Joy/TubeTelevision</li>
-							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Brown</li>
-							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Cream</li>
-							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Grey</li>
-							<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Oval</li>
+						<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Brown</li>
+						<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Cream</li>
+						<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Grey</li>
+						<li>Things/Building/Joy/Televisions/VFE_TubeTelevision_Oval</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Tube Television</li>
+						<li>Brown</li>
+						<li>Cream</li>
+						<li>Grey</li>
+						<li>Oval</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>

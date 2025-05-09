@@ -19,6 +19,12 @@
 										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Round</li>
 										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Triple</li>
 									</randomGraphics>
+									<optionalNames>
+										<li>Standard Helixien Pump</li>
+										<li>Double</li>
+										<li>Round</li>
+										<li>Triple</li>
+									</optionalNames>
 								</li>
 							</comps>
 						</value>
@@ -29,16 +35,20 @@
 							<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
 									<li>Things/Building/GasMachines/HelixienPump</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Double</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Round</li>
-										<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Triple</li>
+									<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Double</li>
+									<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Round</li>
+									<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Triple</li>
 								</randomGraphics>
+								<optionalNames>
+									<li>Standard Helixien Pump</li>
+									<li>Double</li>
+									<li>Round</li>
+									<li>Triple</li>
+								</optionalNames>
 							</li>
 						</value>
 					</match>
 				</li>
-				
-				
 			</operations>
 		</match>
 	</Operation>

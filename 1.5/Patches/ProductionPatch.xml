@@ -13,6 +13,12 @@
 							<li>Things/Building/Production/Crematoriums/VFE_CrematoriumChimneys</li>
 							<li>Things/Building/Production/Crematoriums/VFE_CrematoriumDouble</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Crematorium</li>
+							<li>Assymetrical</li>
+							<li>Chimneys</li>
+							<li>Double</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -27,6 +33,12 @@
 						<li>Things/Building/Production/Crematoriums/VFE_CrematoriumChimneys</li>
 						<li>Things/Building/Production/Crematoriums/VFE_CrematoriumDouble</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Crematorium</li>
+						<li>Assymetrical</li>
+						<li>Chimneys</li>
+						<li>Double</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -45,6 +57,13 @@
 							<li>Things/Building/Production/Sunlamps/VFE_LampSun_Ornate</li>
 							<li>Things/Building/Production/Sunlamps/VFE_LampSun_Oval</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Sun Lamp</li>
+							<li>Grill</li>
+							<li>Hexagonal</li>
+							<li>Ornate</li>
+							<li>Oval</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -60,6 +79,13 @@
 						<li>Things/Building/Production/Sunlamps/VFE_LampSun_Ornate</li>
 						<li>Things/Building/Production/Sunlamps/VFE_LampSun_Oval</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Sun Lamp</li>
+						<li>Grill</li>
+						<li>Hexagonal</li>
+						<li>Ornate</li>
+						<li>Oval</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -78,6 +104,13 @@
 							<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterDouble</li>
 							<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterUnderground</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Electric Smelter</li>
+							<li>Chemfuel</li>
+							<li>Coil</li>
+							<li>Double</li>
+							<li>Underground</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -93,6 +126,13 @@
 						<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterDouble</li>
 						<li>Things/Building/Production/ElectricSmelters/VFE_ElectricSmelterUnderground</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Electric Smelter</li>
+						<li>Chemfuel</li>
+						<li>Coil</li>
+						<li>Double</li>
+						<li>Underground</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -110,6 +150,12 @@
 							<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchDouble</li>
 							<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchSide</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Fabrication Bench</li>
+							<li>Computer</li>
+							<li>Double</li>
+							<li>Side</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -124,6 +170,12 @@
 						<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchDouble</li>
 						<li>Things/Building/Production/FabricationBenches/VFE_FabricationBenchSide</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Fabrication Bench</li>
+						<li>Computer</li>
+						<li>Double</li>
+						<li>Side</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -141,6 +193,12 @@
 							<li>Things/Building/Production/Refineries/VFE_RefineryHorizontal</li>
 							<li>Things/Building/Production/Refineries/VFE_RefinerySide</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Refinery</li>
+							<li>Double</li>
+							<li>Horizontal</li>
+							<li>Side</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -155,17 +213,20 @@
 						<li>Things/Building/Production/Refineries/VFE_RefineryHorizontal</li>
 						<li>Things/Building/Production/Refineries/VFE_RefinerySide</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Refinery</li>
+						<li>Double</li>
+						<li>Horizontal</li>
+						<li>Side</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
 	</Operation>
-
-
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>High Tech Laboratory Facilities (Continued)</li>
 		</mods>
-
 		<match Class="PatchOperationConditional">
 			<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]/comps</xpath>
 			<nomatch Class="PatchOperationAdd">
@@ -179,6 +240,12 @@
 								<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechDouble</li>
 								<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechInverted</li>
 							</randomGraphics>
+							<optionalNames>
+								<li>Standard Hi-Tech Research Bench</li>
+								<li>Alternate</li>
+								<li>Double</li>
+								<li>Inverted</li>
+							</optionalNames>
 						</li>
 					</comps>
 				</value>
@@ -193,10 +260,15 @@
 							<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechDouble</li>
 							<li>Things/Building/Modded/HiTechLaboratories/VFE_ResearchBenchHiTechInverted</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Hi-Tech Research Bench</li>
+							<li>Alternate</li>
+							<li>Double</li>
+							<li>Inverted</li>
+						</optionalNames>
 					</li>
 				</value>
 			</match>
-		
 		</match>
 		<nomatch Class="PatchOperationConditional">
 			<xpath>/Defs/ThingDef[defName = "HiTechResearchBench"]/comps</xpath>
@@ -211,6 +283,12 @@
 								<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechDouble</li>
 								<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechGreen</li>
 							</randomGraphics>
+							<optionalNames>
+								<li>Standard Hi-Tech Research Bench</li>
+								<li>Computer</li>
+								<li>Double</li>
+								<li>Green</li>
+							</optionalNames>
 						</li>
 					</comps>
 				</value>
@@ -225,14 +303,17 @@
 							<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechDouble</li>
 							<li>Things/Building/Production/ResearchBenchesHiTech/VFE_ResearchBenchHiTechGreen</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Hi-Tech Research Bench</li>
+							<li>Computer</li>
+							<li>Double</li>
+							<li>Green</li>
+						</optionalNames>
 					</li>
 				</value>
 			</match>
 		</nomatch>
 	</Operation>
-
-
-
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName = "SimpleResearchBench"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -246,6 +327,12 @@
 							<li>Things/Building/Production/ResearchBenchesSimple/VFE_ResearchBenchSimpleCentrifuge</li>
 							<li>Things/Building/Production/ResearchBenchesSimple/VFE_ResearchBenchSimpleFolders</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Research Bench</li>
+							<li>Beakers</li>
+							<li>Centrifuge</li>
+							<li>Folders</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -260,6 +347,12 @@
 						<li>Things/Building/Production/ResearchBenchesSimple/VFE_ResearchBenchSimpleCentrifuge</li>
 						<li>Things/Building/Production/ResearchBenchesSimple/VFE_ResearchBenchSimpleFolders</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Research Bench</li>
+						<li>Beakers</li>
+						<li>Centrifuge</li>
+						<li>Folders</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -277,8 +370,14 @@
 							<li>Things/Building/Production/TableBreweries/VFE_TableBreweryDouble</li>
 							<li>Things/Building/Production/TableBreweries/VFE_TableBreweryMust</li>
 							<li>Things/Building/Production/TableBreweries/VFE_TableBreweryNoBarrelsOutside</li>
-
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Brewery</li>
+							<li>Alternate</li>
+							<li>Double</li>
+							<li>Must</li>
+							<li>No Barrels Outside</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -294,6 +393,13 @@
 						<li>Things/Building/Production/TableBreweries/VFE_TableBreweryMust</li>
 						<li>Things/Building/Production/TableBreweries/VFE_TableBreweryNoBarrelsOutside</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Brewery</li>
+						<li>Alternate</li>
+						<li>Double</li>
+						<li>Must</li>
+						<li>No Barrels Outside</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -311,6 +417,12 @@
 							<li>Things/Building/Production/TableButchers/VFE_TableButcherTools</li>
 							<li>Things/Building/Production/TableButchers/VFE_TableButcherTray</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Butcher Table</li>
+							<li>Blood</li>
+							<li>Tools</li>
+							<li>Tray</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -325,6 +437,12 @@
 						<li>Things/Building/Production/TableButchers/VFE_TableButcherTools</li>
 						<li>Things/Building/Production/TableButchers/VFE_TableButcherTray</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Butcher Table</li>
+						<li>Blood</li>
+						<li>Tools</li>
+						<li>Tray</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -342,6 +460,12 @@
 							<li>Things/Building/Production/TableDrugLabs/VFE_TableDrugLabBigJar</li>
 							<li>Things/Building/Production/TableDrugLabs/VFE_TableDrugLabDouble</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Drug Lab</li>
+							<li>Alternate</li>
+							<li>Big Jar</li>
+							<li>Double</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -356,6 +480,12 @@
 						<li>Things/Building/Production/TableDrugLabs/VFE_TableDrugLabBigJar</li>
 						<li>Things/Building/Production/TableDrugLabs/VFE_TableDrugLabDouble</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Drug Lab</li>
+						<li>Alternate</li>
+						<li>Big Jar</li>
+						<li>Double</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -373,6 +503,12 @@
 							<li>Things/Building/Production/TableMachinings/VFE_TableMachiningGunPart</li>
 							<li>Things/Building/Production/TableMachinings/VFE_TableMachiningLathe</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Machining Table</li>
+							<li>Drawers</li>
+							<li>Gun Parts</li>
+							<li>Lathe</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -387,6 +523,12 @@
 						<li>Things/Building/Production/TableMachinings/VFE_TableMachiningGunPart</li>
 						<li>Things/Building/Production/TableMachinings/VFE_TableMachiningLathe</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Machining Table</li>
+						<li>Drawers</li>
+						<li>Gun Parts</li>
+						<li>Lathe</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -404,6 +546,12 @@
 							<li>Things/Building/Production/TableSculptings/VFE_TableSculptingRound</li>
 							<li>Things/Building/Production/TableSculptings/VFE_TableSculptingSingle</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Sculpting Table</li>
+							<li>Inverted</li>
+							<li>Round</li>
+							<li>Single</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -418,6 +566,12 @@
 						<li>Things/Building/Production/TableSculptings/VFE_TableSculptingRound</li>
 						<li>Things/Building/Production/TableSculptings/VFE_TableSculptingSingle</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Sculpting Table</li>
+						<li>Inverted</li>
+						<li>Round</li>
+						<li>Single</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -435,6 +589,12 @@
 							<li>Things/Building/Production/TableSmithings/VFE_TableSmithingFueledFoundry</li>
 							<li>Things/Building/Production/TableSmithings/VFE_TableSmithingFueledModule</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Fueled Smithy</li>
+							<li>Double</li>
+							<li>Foundry</li>
+							<li>Module</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -449,6 +609,12 @@
 						<li>Things/Building/Production/TableSmithings/VFE_TableSmithingFueledFoundry</li>
 						<li>Things/Building/Production/TableSmithings/VFE_TableSmithingFueledModule</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Fueled Smithy</li>
+						<li>Double</li>
+						<li>Foundry</li>
+						<li>Module</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -466,6 +632,12 @@
 							<li>Things/Building/Production/TableSmithings/VFE_TableSmithingElectricFoundry</li>
 							<li>Things/Building/Production/TableSmithings/VFE_TableSmithingElectricModule</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Electric Smithy</li>
+							<li>Double</li>
+							<li>Foundry</li>
+							<li>Module</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -480,6 +652,12 @@
 						<li>Things/Building/Production/TableSmithings/VFE_TableSmithingElectricFoundry</li>
 						<li>Things/Building/Production/TableSmithings/VFE_TableSmithingElectricModule</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Electric Smithy</li>
+						<li>Double</li>
+						<li>Foundry</li>
+						<li>Module</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
@@ -497,6 +675,12 @@
 							<li>Things/Building/Production/TableStonecutters/VFE_TableStonecutterSide</li>
 							<li>Things/Building/Production/TableStonecutters/VFE_TableStonecutterSideInverted</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Stonecutting Table</li>
+							<li>Grinder</li>
+							<li>Side</li>
+							<li>Inverted</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -511,11 +695,16 @@
 						<li>Things/Building/Production/TableStonecutters/VFE_TableStonecutterSide</li>
 						<li>Things/Building/Production/TableStonecutters/VFE_TableStonecutterSideInverted</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Stonecutting Table</li>
+						<li>Grinder</li>
+						<li>Side</li>
+						<li>Inverted</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
 	</Operation>
-
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName = "FueledStove"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -529,8 +718,14 @@
 							<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledDoubleInverted</li>
 							<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledModule</li>
 							<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledSink</li>
-
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Fueled Stove</li>
+							<li>Double</li>
+							<li>Double Inverted</li>
+							<li>Module</li>
+							<li>Sink</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -546,11 +741,17 @@
 						<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledModule</li>
 						<li>Things/Building/Production/TableStoves/VFE_TableStoveFueledSink</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Fueled Stove</li>
+						<li>Double</li>
+						<li>Double Inverted</li>
+						<li>Module</li>
+						<li>Sink</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
 	</Operation>
-
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName = "ElectricStove"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -564,8 +765,14 @@
 							<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricDoubleInverted</li>
 							<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricModule</li>
 							<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricSink</li>
-
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Electric Stove</li>
+							<li>Double</li>
+							<li>Double Inverted</li>
+							<li>Module</li>
+							<li>Sink</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -581,11 +788,17 @@
 						<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricModule</li>
 						<li>Things/Building/Production/TableStoves/VFE_TableStoveElectricSink</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Electric Stove</li>
+						<li>Double</li>
+						<li>Double Inverted</li>
+						<li>Module</li>
+						<li>Sink</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
 	</Operation>
-
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName = "HandTailoringBench"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -599,6 +812,12 @@
 							<li>Things/Building/Production/TableTailors/VFE_TableTailorHandSpinningWheel</li>
 							<li>Things/Building/Production/TableTailors/VFE_TableTailorHandSpinningWheelAndBox</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Tailoring Bench</li>
+							<li>Cloth</li>
+							<li>Spinning Wheel</li>
+							<li>Spinning Wheel and Box</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -613,11 +832,16 @@
 						<li>Things/Building/Production/TableTailors/VFE_TableTailorHandSpinningWheel</li>
 						<li>Things/Building/Production/TableTailors/VFE_TableTailorHandSpinningWheelAndBox</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Tailoring Bench</li>
+						<li>Cloth</li>
+						<li>Spinning Wheel</li>
+						<li>Spinning Wheel and Box</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
 	</Operation>
-
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ThingDef[defName = "ElectricTailoringBench"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -631,6 +855,12 @@
 							<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricDouble</li>
 							<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricOrange</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Electric Tailoring Bench</li>
+							<li>Box</li>
+							<li>Double</li>
+							<li>Orange</li>
+						</optionalNames>
 					</li>
 				</comps>
 			</value>
@@ -645,6 +875,12 @@
 						<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricDouble</li>
 						<li>Things/Building/Production/TableTailors/VFE_TableTailorElectricOrange</li>
 					</randomGraphics>
+					<optionalNames>
+						<li>Standard Electric Tailoring Bench</li>
+						<li>Box</li>
+						<li>Double</li>
+						<li>Orange</li>
+					</optionalNames>
 				</li>
 			</value>
 		</match>
