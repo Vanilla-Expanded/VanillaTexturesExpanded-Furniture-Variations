@@ -106,6 +106,7 @@
 										<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Oval</li>
 										<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Round</li>
 										<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Solid</li>
+										<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Spacer</li>
 									</randomGraphics>
 									<optionalNames>
 										<li>Standard Desk Lamp</li>
@@ -114,6 +115,7 @@
 										<li>Oval</li>
 										<li>Round</li>
 										<li>Solid</li>
+										<li>Spacer</li>
 									</optionalNames>
 								</li>
 							</comps>
@@ -130,6 +132,7 @@
 									<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Oval</li>
 									<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Round</li>
 									<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Solid</li>
+									<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Spacer</li>
 								</randomGraphics>
 								<optionalNames>
 									<li>Standard Desk Lamp</li>
@@ -138,6 +141,7 @@
 									<li>Oval</li>
 									<li>Round</li>
 									<li>Solid</li>
+									<li>Spacer</li>
 								</optionalNames>
 							</li>
 						</value>

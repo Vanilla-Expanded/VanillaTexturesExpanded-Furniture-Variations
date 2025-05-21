@@ -600,6 +600,7 @@
 						<li>Things/Building/Furniture/Lamps/VFE_LampStandingNotShitty</li>
 						<li>Things/Building/Furniture/Lamps/VFE_LampStandingSphere</li>
 						<li>Things/Building/Furniture/Lamps/VFE_LampStandingWidePost</li>
+						<li>Things/Building/Furniture/Lamps/VFE_SpacerLamp</li>
 					</randomGraphics>
 					<optionalNames>
 						<li>Standard Lamp</li>
@@ -609,6 +610,7 @@
 						<li>Old</li>
 						<li>Sphere</li>
 						<li>Wide Post</li>
+						<li>Spacer</li>
 					</optionalNames>
 				</li>
 			</comps>
@@ -626,6 +628,7 @@
 					<li>Things/Building/Furniture/Lamps/VFE_LampStandingNotShitty</li>
 					<li>Things/Building/Furniture/Lamps/VFE_LampStandingSphere</li>
 					<li>Things/Building/Furniture/Lamps/VFE_LampStandingWidePost</li>
+					<li>Things/Building/Furniture/Lamps/VFE_SpacerLamp</li>
 				</randomGraphics>
 				<optionalNames>
 					<li>Standard Lamp</li>
@@ -635,6 +638,7 @@
 					<li>Old</li>
 					<li>Sphere</li>
 					<li>Wide Post</li>
+					<li>Spacer</li>
 				</optionalNames>
 			</li>
 		</value>
