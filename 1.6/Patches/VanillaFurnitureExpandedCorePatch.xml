@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/ThingDef[defName = "Table_RoyalDresser"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName = "Table_RoyalDresser"]</xpath>
+						<value>
+							<comps>
+								<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+									<useSouthOrientation>true</useSouthOrientation>
+									<randomGraphics>
+										<li>NewThings/Furniture/RoyalDresser/RoyalDresser</li>
+										<li>Things/Building/VFECore/RoyalDresser/VFE_RoyalDresser_Curved</li>
+										<li>Things/Building/VFECore/RoyalDresser/VFE_RoyalDresser_FourDoors</li>
+									</randomGraphics>
+									<optionalNames>
+										<li>Standard Royal Dresser</li>
+										<li>Curved</li>
+										<li>Four Doors</li>
+									</optionalNames>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName = "Table_RoyalDresser"]/comps</xpath>
+						<value>
+							<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+								<useSouthOrientation>true</useSouthOrientation>
+								<randomGraphics>
+									<li>NewThings/Furniture/RoyalDresser/RoyalDresser</li>
+									<li>Things/Building/VFECore/RoyalDresser/VFE_RoyalDresser_Curved</li>
+									<li>Things/Building/VFECore/RoyalDresser/VFE_RoyalDresser_FourDoors</li>
+								</randomGraphics>
+								<optionalNames>
+									<li>Standard Royal Dresser</li>
+									<li>Curved</li>
+									<li>Four Doors</li>
+								</optionalNames>
+							</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/ThingDef[defName = "Table_Wardrobe"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName = "Table_Wardrobe"]</xpath>
+						<value>
+							<comps>
+								<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+									<useSouthOrientation>true</useSouthOrientation>
+									<randomGraphics>
+										<li>NewThings/Furniture/Wardrobe/Wardrobe</li>
+										<li>Things/Building/VFECore/Wardrobe/VFE_Wardrobe_Antique</li>
+										<li>Things/Building/VFECore/Wardrobe/VFE_Wardrobe_Complex</li>
+										<li>Things/Building/VFECore/Wardrobe/VFE_Wardrobe_ThreeDoors</li>
+									</randomGraphics>
+									<optionalNames>
+										<li>Standard Wardrobe</li>
+										<li>Antique</li>
+										<li>Complex</li>
+										<li>Three Doors</li>
+									</optionalNames>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName = "Table_Wardrobe"]/comps</xpath>
+						<value>
+							<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+								<useSouthOrientation>true</useSouthOrientation>
+								<randomGraphics>
+									<li>NewThings/Furniture/Wardrobe/Wardrobe</li>
+									<li>Things/Building/VFECore/Wardrobe/VFE_Wardrobe_Antique</li>
+									<li>Things/Building/VFECore/Wardrobe/VFE_Wardrobe_Complex</li>
+									<li>Things/Building/VFECore/Wardrobe/VFE_Wardrobe_ThreeDoors</li>
+								</randomGraphics>
+								<optionalNames>
+									<li>Standard Wardrobe</li>
+									<li>Antique</li>
+									<li>Complex</li>
+									<li>Three Doors</li>
+								</optionalNames>
+							</li>
+						</value>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/ThingDef[defName = "VFE_DeskLamp"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName = "VFE_DeskLamp"]</xpath>
+						<value>
+							<comps>
+								<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+									<randomGraphics>
+										<li>NewThings/Light/DeskLamp</li>
+										<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Cilinder</li>
+										<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Old</li>
+										<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Oval</li>
+										<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Round</li>
+										<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Solid</li>
+										<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Spacer</li>
+									</randomGraphics>
+									<optionalNames>
+										<li>Standard Desk Lamp</li>
+										<li>Cilinder</li>
+										<li>Old</li>
+										<li>Oval</li>
+										<li>Round</li>
+										<li>Solid</li>
+										<li>Spacer</li>
+									</optionalNames>
+								</li>
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName = "VFE_DeskLamp"]/comps</xpath>
+						<value>
+							<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+								<randomGraphics>
+									<li>NewThings/Light/DeskLamp</li>
+									<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Cilinder</li>
+									<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Old</li>
+									<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Oval</li>
+									<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Round</li>
+									<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Solid</li>
+									<li>Things/Building/VFECore/DeskLamp/VFE_DeskLamp_Spacer</li>
+								</randomGraphics>
+								<optionalNames>
+									<li>Standard Desk Lamp</li>
+									<li>Cilinder</li>
+									<li>Old</li>
+									<li>Oval</li>
+									<li>Round</li>
+									<li>Solid</li>
+									<li>Spacer</li>
+								</optionalNames>
+							</li>
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

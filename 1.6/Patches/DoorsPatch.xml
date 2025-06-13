@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>ClutterDoors (Continued)</li>
@@ -11,7 +10,7 @@
 				<xpath>/Defs/ThingDef[defName = "Autodoor"]</xpath>
 				<value>
 					<comps>
-						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 							<randomGraphics>
 								<li>Things/Building/Door/AutoDoor</li>
 								<li>Things/Building/Autodoor/VFE_AutoDoorA</li>
@@ -23,6 +22,17 @@
 								<li>Things/Building/Autodoor/VFE_AutoDoorG</li>
 								<li>Things/Building/Autodoor/VFE_AutoDoorH</li>
 							</randomGraphics>
+							<optionalNames>
+								<li>Standard Autodoor</li>
+								<li>A Autodoor Variation</li>
+								<li>B Autodoor Variation</li>
+								<li>C Autodoor Variation</li>
+								<li>D Autodoor Variation</li>
+								<li>E Autodoor Variation</li>
+								<li>F Autodoor Variation</li>
+								<li>G Autodoor Variation</li>
+								<li>H Autodoor Variation</li>
+							</optionalNames>
 						</li>
 					</comps>
 				</value>
@@ -30,7 +40,7 @@
 			<match Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "Autodoor"]/comps</xpath>
 				<value>
-					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 						<randomGraphics>
 							<li>Things/Building/Door/AutoDoor</li>
 							<li>Things/Building/Autodoor/VFE_AutoDoorA</li>
@@ -42,6 +52,17 @@
 							<li>Things/Building/Autodoor/VFE_AutoDoorG</li>
 							<li>Things/Building/Autodoor/VFE_AutoDoorH</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Autodoor</li>
+							<li>A Autodoor Variation</li>
+							<li>B Autodoor Variation</li>
+							<li>C Autodoor Variation</li>
+							<li>D Autodoor Variation</li>
+							<li>E Autodoor Variation</li>
+							<li>F Autodoor Variation</li>
+							<li>G Autodoor Variation</li>
+							<li>H Autodoor Variation</li>
+						</optionalNames>
 					</li>
 				</value>
 			</match>
@@ -52,7 +73,7 @@
 				<xpath>/Defs/ThingDef[defName = "Autodoor"]</xpath>
 				<value>
 					<comps>
-						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 							<randomGraphics>
 								<li>Things/Building/Door/Autodoor_Mover</li>
 								<li>Things/Building/Autodoor/VFE_AutoDoorA</li>
@@ -64,6 +85,17 @@
 								<li>Things/Building/Autodoor/VFE_AutoDoorG</li>
 								<li>Things/Building/Autodoor/VFE_AutoDoorH</li>
 							</randomGraphics>
+							<optionalNames>
+								<li>Standard Autodoor</li>
+								<li>A Autodoor Variation</li>
+								<li>B Autodoor Variation</li>
+								<li>C Autodoor Variation</li>
+								<li>D Autodoor Variation</li>
+								<li>E Autodoor Variation</li>
+								<li>F Autodoor Variation</li>
+								<li>G Autodoor Variation</li>
+								<li>H Autodoor Variation</li>
+							</optionalNames>
 						</li>
 					</comps>
 				</value>
@@ -71,7 +103,7 @@
 			<match Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "Autodoor"]/comps</xpath>
 				<value>
-					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 						<randomGraphics>
 							<li>Things/Building/Door/Autodoor_Mover</li>
 							<li>Things/Building/Autodoor/VFE_AutoDoorA</li>
@@ -83,6 +115,17 @@
 							<li>Things/Building/Autodoor/VFE_AutoDoorG</li>
 							<li>Things/Building/Autodoor/VFE_AutoDoorH</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Autodoor</li>
+							<li>A Autodoor Variation</li>
+							<li>B Autodoor Variation</li>
+							<li>C Autodoor Variation</li>
+							<li>D Autodoor Variation</li>
+							<li>E Autodoor Variation</li>
+							<li>F Autodoor Variation</li>
+							<li>G Autodoor Variation</li>
+							<li>H Autodoor Variation</li>
+						</optionalNames>
 					</li>
 				</value>
 			</match>
@@ -98,7 +141,7 @@
 				<xpath>/Defs/ThingDef[defName = "Door"]</xpath>
 				<value>
 					<comps>
-						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 							<randomGraphics>
 								<li>Things/Building/Door/SimpleDoor</li>
 								<li>Things/Building/Door/VFE_DoorHorizontalLines_Mover</li>
@@ -110,6 +153,17 @@
 								<li>Things/Building/Door/VFE_DoorSimpleSmallBarsAndSquare_Mover</li>
 								<li>Things/Building/Door/VFE_DoorSimpleSmallSquares_Mover</li>
 							</randomGraphics>
+							<optionalNames>
+								<li>Standard Door</li>
+								<li>Horizontal Lines</li>
+								<li>Shades</li>
+								<li>Alternating</li>
+								<li>Bar</li>
+								<li>Horizontal Bars</li>
+								<li>Oval</li>
+								<li>Small Bars and Square</li>
+								<li>Small Squares</li>
+							</optionalNames>
 						</li>
 					</comps>
 				</value>
@@ -117,7 +171,7 @@
 			<match Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
 				<value>
-					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 						<randomGraphics>
 							<li>Things/Building/Door/SimpleDoor</li>
 							<li>Things/Building/Door/VFE_DoorHorizontalLines_Mover</li>
@@ -129,6 +183,17 @@
 							<li>Things/Building/Door/VFE_DoorSimpleSmallBarsAndSquare_Mover</li>
 							<li>Things/Building/Door/VFE_DoorSimpleSmallSquares_Mover</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Door</li>
+							<li>Horizontal Lines</li>
+							<li>Shades</li>
+							<li>Alternating</li>
+							<li>Bar</li>
+							<li>Horizontal Bars</li>
+							<li>Oval</li>
+							<li>Small Bars and Square</li>
+							<li>Small Squares</li>
+						</optionalNames>
 					</li>
 				</value>
 			</match>
@@ -139,7 +204,7 @@
 				<xpath>/Defs/ThingDef[defName = "Door"]</xpath>
 				<value>
 					<comps>
-						<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 							<randomGraphics>
 								<li>Things/Building/Door/DoorSimple_Mover</li>
 								<li>Things/Building/Door/VFE_DoorHorizontalLines_Mover</li>
@@ -151,6 +216,17 @@
 								<li>Things/Building/Door/VFE_DoorSimpleSmallBarsAndSquare_Mover</li>
 								<li>Things/Building/Door/VFE_DoorSimpleSmallSquares_Mover</li>
 							</randomGraphics>
+							<optionalNames>
+								<li>Standard Door</li>
+								<li>Horizontal Lines</li>
+								<li>Shades</li>
+								<li>Alternating</li>
+								<li>Bar</li>
+								<li>Horizontal Bars</li>
+								<li>Oval</li>
+								<li>Small Bars and Square</li>
+								<li>Small Squares</li>
+							</optionalNames>
 						</li>
 					</comps>
 				</value>
@@ -158,7 +234,7 @@
 			<match Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
 				<value>
-					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 						<randomGraphics>
 							<li>Things/Building/Door/DoorSimple_Mover</li>
 							<li>Things/Building/Door/VFE_DoorHorizontalLines_Mover</li>
@@ -170,6 +246,17 @@
 							<li>Things/Building/Door/VFE_DoorSimpleSmallBarsAndSquare_Mover</li>
 							<li>Things/Building/Door/VFE_DoorSimpleSmallSquares_Mover</li>
 						</randomGraphics>
+						<optionalNames>
+							<li>Standard Door</li>
+							<li>Horizontal Lines</li>
+							<li>Shades</li>
+							<li>Alternating</li>
+							<li>Bar</li>
+							<li>Horizontal Bars</li>
+							<li>Oval</li>
+							<li>Small Bars and Square</li>
+							<li>Small Squares</li>
+						</optionalNames>
 					</li>
 				</value>
 			</match>
