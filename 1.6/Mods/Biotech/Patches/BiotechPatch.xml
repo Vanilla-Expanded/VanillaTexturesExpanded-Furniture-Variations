@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName = "SchoolDesk"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "SchoolDesk"]</xpath>
+			<value>
+				<comps>
+					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Building/Childcare/LessonDesk/LessonDesk</li>
+							<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskInset</li>
+							<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskOrnate</li>
+							<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskSeparateLegs</li>
+							<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskSinglePiece</li>
+						</randomGraphics>
+						<optionalNames>
+							<li>Standard School Desk</li>
+							<li>Inset</li>
+							<li>Ornate</li>
+							<li>Separate Legs</li>
+							<li>SinglePiece</li>
+						</optionalNames>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName = "SchoolDesk"]/comps</xpath>
+			<value>
+				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<randomGraphics>
+							<li>Things/Building/Childcare/LessonDesk/LessonDesk</li>
+							<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskInset</li>
+							<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskOrnate</li>
+							<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskSeparateLegs</li>
+							<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskSinglePiece</li>
+						</randomGraphics>
+						<optionalNames>
+							<li>Standard School Desk</li>
+							<li>Inset</li>
+							<li>Ornate</li>
+							<li>Separate Legs</li>
+							<li>SinglePiece</li>
+						</optionalNames>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>
+
