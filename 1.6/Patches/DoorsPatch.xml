@@ -5,9 +5,9 @@
 			<li>ClutterDoors (Continued)</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>/Defs/ThingDef[defName = "Autodoor"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "Autodoor"]/comps</xpath>
 			<nomatch Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "Autodoor"]</xpath>
+				<xpath>Defs/ThingDef[defName = "Autodoor"]</xpath>
 				<value>
 					<comps>
 						<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -38,7 +38,7 @@
 				</value>
 			</nomatch>
 			<match Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "Autodoor"]/comps</xpath>
+				<xpath>Defs/ThingDef[defName = "Autodoor"]/comps</xpath>
 				<value>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 						<randomGraphics>
@@ -68,9 +68,9 @@
 			</match>
 		</match>
 		<nomatch Class="PatchOperationConditional">
-			<xpath>/Defs/ThingDef[defName = "Autodoor"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "Autodoor"]/comps</xpath>
 			<nomatch Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "Autodoor"]</xpath>
+				<xpath>Defs/ThingDef[defName = "Autodoor"]</xpath>
 				<value>
 					<comps>
 						<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -101,7 +101,7 @@
 				</value>
 			</nomatch>
 			<match Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "Autodoor"]/comps</xpath>
+				<xpath>Defs/ThingDef[defName = "Autodoor"]/comps</xpath>
 				<value>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 						<randomGraphics>
@@ -136,9 +136,9 @@
 			<li>ClutterDoors (Continued)</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "Door"]/comps</xpath>
 			<nomatch Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "Door"]</xpath>
+				<xpath>Defs/ThingDef[defName = "Door"]</xpath>
 				<value>
 					<comps>
 						<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -169,7 +169,7 @@
 				</value>
 			</nomatch>
 			<match Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
+				<xpath>Defs/ThingDef[defName = "Door"]/comps</xpath>
 				<value>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 						<randomGraphics>
@@ -199,9 +199,9 @@
 			</match>
 		</match>
 		<nomatch Class="PatchOperationConditional">
-			<xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "Door"]/comps</xpath>
 			<nomatch Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "Door"]</xpath>
+				<xpath>Defs/ThingDef[defName = "Door"]</xpath>
 				<value>
 					<comps>
 						<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -232,7 +232,7 @@
 				</value>
 			</nomatch>
 			<match Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
+				<xpath>Defs/ThingDef[defName = "Door"]/comps</xpath>
 				<value>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 						<randomGraphics>

@@ -7,9 +7,9 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationConditional">
-					<xpath>/Defs/ThingDef[defName = "VFE_ComponentFabricationBench"]/comps</xpath>
+					<xpath>Defs/ThingDef[defName = "VFE_ComponentFabricationBench"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VFE_ComponentFabricationBench"]</xpath>
+						<xpath>Defs/ThingDef[defName = "VFE_ComponentFabricationBench"]</xpath>
 						<value>
 							<comps>
 								<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -30,7 +30,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VFE_ComponentFabricationBench"]/comps</xpath>
+						<xpath>Defs/ThingDef[defName = "VFE_ComponentFabricationBench"]/comps</xpath>
 						<value>
 							<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
@@ -50,9 +50,9 @@
 					</match>
 				</li>
 				<li Class="PatchOperationConditional">
-					<xpath>/Defs/ThingDef[defName = "VFE_TableButcherElectric"]/comps</xpath>
+					<xpath>Defs/ThingDef[defName = "VFE_TableButcherElectric"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VFE_TableButcherElectric"]</xpath>
+						<xpath>Defs/ThingDef[defName = "VFE_TableButcherElectric"]</xpath>
 						<value>
 							<comps>
 								<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -73,7 +73,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VFE_TableButcherElectric"]/comps</xpath>
+						<xpath>Defs/ThingDef[defName = "VFE_TableButcherElectric"]/comps</xpath>
 						<value>
 							<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
@@ -93,9 +93,9 @@
 					</match>
 				</li>
 				<li Class="PatchOperationConditional">
-					<xpath>/Defs/ThingDef[defName = "VFE_FueledSmelter"]/comps</xpath>
+					<xpath>Defs/ThingDef[defName = "VFE_FueledSmelter"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VFE_FueledSmelter"]</xpath>
+						<xpath>Defs/ThingDef[defName = "VFE_FueledSmelter"]</xpath>
 						<value>
 							<comps>
 								<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -118,7 +118,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VFE_FueledSmelter"]/comps</xpath>
+						<xpath>Defs/ThingDef[defName = "VFE_FueledSmelter"]/comps</xpath>
 						<value>
 							<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
@@ -140,9 +140,9 @@
 					</match>
 				</li>
 				<li Class="PatchOperationConditional">
-					<xpath>/Defs/ThingDef[defName = "VFE_TableMachiningLarge"]/comps</xpath>
+					<xpath>Defs/ThingDef[defName = "VFE_TableMachiningLarge"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VFE_TableMachiningLarge"]</xpath>
+						<xpath>Defs/ThingDef[defName = "VFE_TableMachiningLarge"]</xpath>
 						<value>
 							<comps>
 								<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -163,7 +163,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VFE_TableMachiningLarge"]/comps</xpath>
+						<xpath>Defs/ThingDef[defName = "VFE_TableMachiningLarge"]/comps</xpath>
 						<value>
 							<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
@@ -183,9 +183,9 @@
 					</match>
 				</li>
 				<li Class="PatchOperationConditional">
-					<xpath>/Defs/ThingDef[defName = "VFE_TableStoveLarge"]/comps</xpath>
+					<xpath>Defs/ThingDef[defName = "VFE_TableStoveLarge"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VFE_TableStoveLarge"]</xpath>
+						<xpath>Defs/ThingDef[defName = "VFE_TableStoveLarge"]</xpath>
 						<value>
 							<comps>
 								<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -206,7 +206,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VFE_TableStoveLarge"]/comps</xpath>
+						<xpath>Defs/ThingDef[defName = "VFE_TableStoveLarge"]/comps</xpath>
 						<value>
 							<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
@@ -226,9 +226,9 @@
 					</match>
 				</li>
 				<li Class="PatchOperationConditional">
-					<xpath>/Defs/ThingDef[defName = "VFE_TableTailorLarge"]/comps</xpath>
+					<xpath>Defs/ThingDef[defName = "VFE_TableTailorLarge"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VFE_TableTailorLarge"]</xpath>
+						<xpath>Defs/ThingDef[defName = "VFE_TableTailorLarge"]</xpath>
 						<value>
 							<comps>
 								<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -249,7 +249,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VFE_TableTailorLarge"]/comps</xpath>
+						<xpath>Defs/ThingDef[defName = "VFE_TableTailorLarge"]/comps</xpath>
 						<value>
 							<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>

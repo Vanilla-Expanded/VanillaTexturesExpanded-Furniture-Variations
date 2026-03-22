@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "GeothermalGenerator"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "GeothermalGenerator"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "GeothermalGenerator"]</xpath>
+			<xpath>Defs/ThingDef[defName = "GeothermalGenerator"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -30,7 +30,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "GeothermalGenerator"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "GeothermalGenerator"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
@@ -56,9 +56,9 @@
 		</match>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "SolarGenerator"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "SolarGenerator"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "SolarGenerator"]</xpath>
+			<xpath>Defs/ThingDef[defName = "SolarGenerator"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -85,7 +85,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "SolarGenerator"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "SolarGenerator"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
@@ -111,9 +111,9 @@
 		</match>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "Battery"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "Battery"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "Battery"]</xpath>
+			<xpath>Defs/ThingDef[defName = "Battery"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -134,7 +134,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "Battery"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "Battery"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
@@ -154,9 +154,9 @@
 		</match>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "WoodFiredGenerator"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "WoodFiredGenerator"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "WoodFiredGenerator"]</xpath>
+			<xpath>Defs/ThingDef[defName = "WoodFiredGenerator"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -179,7 +179,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "WoodFiredGenerator"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "WoodFiredGenerator"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
@@ -201,9 +201,9 @@
 		</match>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "ChemfuelPoweredGenerator"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "ChemfuelPoweredGenerator"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "ChemfuelPoweredGenerator"]</xpath>
+			<xpath>Defs/ThingDef[defName = "ChemfuelPoweredGenerator"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -226,7 +226,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "ChemfuelPoweredGenerator"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "ChemfuelPoweredGenerator"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>

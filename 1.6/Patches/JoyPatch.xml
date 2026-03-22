@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "HorseshoesPin"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "HorseshoesPin"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "HorseshoesPin"]</xpath>
+			<xpath>Defs/ThingDef[defName = "HorseshoesPin"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -24,7 +24,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "HorseshoesPin"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "HorseshoesPin"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
@@ -44,9 +44,9 @@
 		</match>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "ChessTable"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "ChessTable"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "ChessTable"]</xpath>
+			<xpath>Defs/ThingDef[defName = "ChessTable"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -67,7 +67,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "ChessTable"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "ChessTable"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
@@ -87,9 +87,9 @@
 		</match>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "PokerTable"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "PokerTable"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "PokerTable"]</xpath>
+			<xpath>Defs/ThingDef[defName = "PokerTable"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -110,7 +110,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "PokerTable"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "PokerTable"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
@@ -130,9 +130,9 @@
 		</match>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "BilliardsTable"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "BilliardsTable"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "BilliardsTable"]</xpath>
+			<xpath>Defs/ThingDef[defName = "BilliardsTable"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -153,7 +153,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "BilliardsTable"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "BilliardsTable"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
@@ -173,9 +173,9 @@
 		</match>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "TubeTelevision"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "TubeTelevision"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "TubeTelevision"]</xpath>
+			<xpath>Defs/ThingDef[defName = "TubeTelevision"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -198,7 +198,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "TubeTelevision"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "TubeTelevision"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>

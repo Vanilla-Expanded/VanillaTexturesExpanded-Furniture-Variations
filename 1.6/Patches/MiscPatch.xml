@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "OrbitalTradeBeacon"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "OrbitalTradeBeacon"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "OrbitalTradeBeacon"]</xpath>
+			<xpath>Defs/ThingDef[defName = "OrbitalTradeBeacon"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -24,7 +24,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "OrbitalTradeBeacon"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "OrbitalTradeBeacon"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
@@ -48,9 +48,9 @@
 			<li>High Tech Laboratory Facilities (Continued)</li>
 		</mods>
 		<nomatch Class="PatchOperationConditional">
-			<xpath>/Defs/ThingDef[defName = "CommsConsole"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "CommsConsole"]/comps</xpath>
 			<nomatch Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "CommsConsole"]</xpath>
+				<xpath>Defs/ThingDef[defName = "CommsConsole"]</xpath>
 				<value>
 					<comps>
 						<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -69,7 +69,7 @@
 				</value>
 			</nomatch>
 			<match Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "CommsConsole"]/comps</xpath>
+				<xpath>Defs/ThingDef[defName = "CommsConsole"]/comps</xpath>
 				<value>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 						<randomGraphics>
@@ -88,9 +88,9 @@
 		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "PassiveCooler"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "PassiveCooler"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "PassiveCooler"]</xpath>
+			<xpath>Defs/ThingDef[defName = "PassiveCooler"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -111,7 +111,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "PassiveCooler"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "PassiveCooler"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
@@ -131,9 +131,9 @@
 		</match>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "GroundPenetratingScanner"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "GroundPenetratingScanner"]</xpath>
+			<xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -154,7 +154,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "GroundPenetratingScanner"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>
@@ -178,9 +178,9 @@
 			<li>High Tech Laboratory Facilities (Continued)</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>/Defs/ThingDef[defName = "MultiAnalyzer"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "MultiAnalyzer"]/comps</xpath>
 			<nomatch Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "MultiAnalyzer"]</xpath>
+				<xpath>Defs/ThingDef[defName = "MultiAnalyzer"]</xpath>
 				<value>
 					<comps>
 						<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -201,7 +201,7 @@
 				</value>
 			</nomatch>
 			<match Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "MultiAnalyzer"]/comps</xpath>
+				<xpath>Defs/ThingDef[defName = "MultiAnalyzer"]/comps</xpath>
 				<value>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 						<randomGraphics>
@@ -221,9 +221,9 @@
 			</match>
 		</match>
 		<nomatch Class="PatchOperationConditional">
-			<xpath>/Defs/ThingDef[defName = "MultiAnalyzer"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "MultiAnalyzer"]/comps</xpath>
 			<nomatch Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "MultiAnalyzer"]</xpath>
+				<xpath>Defs/ThingDef[defName = "MultiAnalyzer"]</xpath>
 				<value>
 					<comps>
 						<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -244,7 +244,7 @@
 				</value>
 			</nomatch>
 			<match Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "MultiAnalyzer"]/comps</xpath>
+				<xpath>Defs/ThingDef[defName = "MultiAnalyzer"]/comps</xpath>
 				<value>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 						<randomGraphics>
@@ -265,9 +265,9 @@
 		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "VitalsMonitor"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "VitalsMonitor"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "VitalsMonitor"]</xpath>
+			<xpath>Defs/ThingDef[defName = "VitalsMonitor"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -291,7 +291,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "VitalsMonitor"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "VitalsMonitor"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<useSouthOrientation>true</useSouthOrientation>
@@ -314,9 +314,9 @@
 		</match>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "ToolCabinet"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName = "ToolCabinet"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "ToolCabinet"]</xpath>
+			<xpath>Defs/ThingDef[defName = "ToolCabinet"]</xpath>
 			<value>
 				<comps>
 					<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -337,7 +337,7 @@
 			</value>
 		</nomatch>
 		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "ToolCabinet"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName = "ToolCabinet"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 					<randomGraphics>

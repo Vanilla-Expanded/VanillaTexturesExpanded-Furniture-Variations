@@ -7,9 +7,9 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationConditional">
-					<xpath>/Defs/ThingDef[defName = "VHGE_HelixienPump"]/comps</xpath>
+					<xpath>Defs/ThingDef[defName = "VHGE_HelixienPump"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VHGE_HelixienPump"]</xpath>
+						<xpath>Defs/ThingDef[defName = "VHGE_HelixienPump"]</xpath>
 						<value>
 							<comps>
 								<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -30,7 +30,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VHGE_HelixienPump"]/comps</xpath>
+						<xpath>Defs/ThingDef[defName = "VHGE_HelixienPump"]/comps</xpath>
 						<value>
 							<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>

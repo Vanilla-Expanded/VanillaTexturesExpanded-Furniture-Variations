@@ -7,9 +7,9 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationConditional">
-					<xpath>/Defs/ThingDef[defName = "VPE_NuclearGenerator"]/comps</xpath>
+					<xpath>Defs/ThingDef[defName = "VPE_NuclearGenerator"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VPE_NuclearGenerator"]</xpath>
+						<xpath>Defs/ThingDef[defName = "VPE_NuclearGenerator"]</xpath>
 						<value>
 							<comps>
 								<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -18,19 +18,21 @@
 										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_CoolingTower</li>
 										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_Double</li>
 										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_LessPipes</li>
+										<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_DoubleCoolingTower</li>
 									</randomGraphics>
 									<optionalNames>
 										<li>Standard Nuclear Power Plant</li>
 										<li>Cooling Tower</li>
 										<li>Double</li>
 										<li>Less Pipes</li>
+										<li>Two small cooling towers</li>
 									</optionalNames>
 								</li>
 							</comps>
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VPE_NuclearGenerator"]/comps</xpath>
+						<xpath>Defs/ThingDef[defName = "VPE_NuclearGenerator"]/comps</xpath>
 						<value>
 							<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
@@ -38,21 +40,23 @@
 									<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_CoolingTower</li>
 									<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_Double</li>
 									<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_LessPipes</li>
+									<li>Things/Building/VFEPower/Nuclear/VFE_NuclearPowerPlant_DoubleCoolingTower</li>
 								</randomGraphics>
 								<optionalNames>
 									<li>Standard Nuclear Power Plant</li>
 									<li>Cooling Tower</li>
 									<li>Double</li>
 									<li>Less Pipes</li>
+									<li>Two small cooling towers</li>
 								</optionalNames>
 							</li>
 						</value>
 					</match>
 				</li>
 				<li Class="PatchOperationConditional">
-					<xpath>/Defs/ThingDef[defName = "VFE_AdvancedSolarGenerator"]/comps</xpath>
+					<xpath>Defs/ThingDef[defName = "VFE_AdvancedSolarGenerator"]/comps</xpath>
 					<nomatch Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VFE_AdvancedSolarGenerator"]</xpath>
+						<xpath>Defs/ThingDef[defName = "VFE_AdvancedSolarGenerator"]</xpath>
 						<value>
 							<comps>
 								<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
@@ -71,7 +75,7 @@
 						</value>
 					</nomatch>
 					<match Class="PatchOperationAdd">
-						<xpath>/Defs/ThingDef[defName = "VFE_AdvancedSolarGenerator"]/comps</xpath>
+						<xpath>Defs/ThingDef[defName = "VFE_AdvancedSolarGenerator"]/comps</xpath>
 						<value>
 							<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 								<randomGraphics>
