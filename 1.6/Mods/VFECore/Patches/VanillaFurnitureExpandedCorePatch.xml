@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<!-- ========== Table_RoyalDresser ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Table_RoyalDresser"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Table_RoyalDresser"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Table_RoyalDresser"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "Table_RoyalDresser"]/comps</xpath>
@@ -26,11 +30,15 @@
 		</value>
 	</Operation>
 	<!-- ========== Table_Wardrobe ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Table_Wardrobe"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Table_Wardrobe"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Table_Wardrobe"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "Table_Wardrobe"]/comps</xpath>
@@ -53,11 +61,15 @@
 		</value>
 	</Operation>
 	<!-- ========== VFE_DeskLamp ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="VFE_DeskLamp"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VFE_DeskLamp"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VFE_DeskLamp"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "VFE_DeskLamp"]/comps</xpath>

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<!-- ========== GeothermalGenerator ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="GeothermalGenerator"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="GeothermalGenerator"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="GeothermalGenerator"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "GeothermalGenerator"]/comps</xpath>
@@ -33,11 +36,14 @@
 		</value>
 	</Operation>
 	<!-- ========== SolarGenerator ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="SolarGenerator"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="SolarGenerator"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="SolarGenerator"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "SolarGenerator"]/comps</xpath>
@@ -65,11 +71,14 @@
 		</value>
 	</Operation>
 	<!-- ========== Battery ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Battery"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Battery"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Battery"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "Battery"]/comps</xpath>
@@ -91,11 +100,14 @@
 		</value>
 	</Operation>
 	<!-- ========== WoodFiredGenerator ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="WoodFiredGenerator"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="WoodFiredGenerator"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="WoodFiredGenerator"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "WoodFiredGenerator"]/comps</xpath>
@@ -119,11 +131,14 @@
 		</value>
 	</Operation>
 	<!-- ========== ChemfuelPoweredGenerator ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="ChemfuelPoweredGenerator"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ChemfuelPoweredGenerator"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ChemfuelPoweredGenerator"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "ChemfuelPoweredGenerator"]/comps</xpath>

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<!-- ========== OrbitalTradeBeacon ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="OrbitalTradeBeacon"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="OrbitalTradeBeacon"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="OrbitalTradeBeacon"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="OrbitalTradeBeacon"]/comps</xpath>
@@ -26,12 +29,15 @@
 			</li>
 		</value>
 	</Operation>
-	<!-- ========== OrbitalTradeBeacon ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="CommsConsole"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<!-- ========== CommsConsole ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="CommsConsole"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="CommsConsole"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -56,11 +62,14 @@
 		</nomatch>
 	</Operation>
 	<!-- ========== PassiveCooler ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PassiveCooler"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="PassiveCooler"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="PassiveCooler"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="PassiveCooler"]/comps</xpath>
@@ -82,11 +91,14 @@
 		</value>
 	</Operation>
 	<!-- ========== GroundPenetratingScanner ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="GroundPenetratingScanner"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="GroundPenetratingScanner"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="GroundPenetratingScanner"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="GroundPenetratingScanner"]/comps</xpath>
@@ -108,11 +120,14 @@
 		</value>
 	</Operation>
 	<!-- ========== MultiAnalyzer ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="MultiAnalyzer"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="MultiAnalyzer"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="MultiAnalyzer"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -158,11 +173,14 @@
 		</nomatch>
 	</Operation>
 	<!-- ========== VitalsMonitor ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="VitalsMonitor"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VitalsMonitor"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VitalsMonitor"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "VitalsMonitor"]/comps</xpath>
@@ -187,11 +205,14 @@
 		</value>
 	</Operation>
 	<!-- ========== ToolCabinet ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="ToolCabinet"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ToolCabinet"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ToolCabinet"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "ToolCabinet"]/comps</xpath>

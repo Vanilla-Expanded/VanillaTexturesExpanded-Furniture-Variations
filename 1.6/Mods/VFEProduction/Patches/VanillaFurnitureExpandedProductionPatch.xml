@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<!-- ========== VFE_ComponentFabricationBench ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="VFE_ComponentFabricationBench"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VFE_ComponentFabricationBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VFE_ComponentFabricationBench"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "VFE_ComponentFabricationBench"]/comps</xpath>
@@ -27,11 +30,14 @@
 		</value>
 	</Operation>
 	<!-- ========== VFE_TableButcherElectric ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="VFE_TableButcherElectric"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VFE_TableButcherElectric"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VFE_TableButcherElectric"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "VFE_TableButcherElectric"]/comps</xpath>
@@ -53,11 +59,14 @@
 		</value>
 	</Operation>
 	<!-- ========== VFE_FueledSmelter ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="VFE_FueledSmelter"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VFE_FueledSmelter"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VFE_FueledSmelter"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "VFE_FueledSmelter"]/comps</xpath>
@@ -81,11 +90,14 @@
 		</value>
 	</Operation>
 	<!-- ========== VFE_TableMachiningLarge ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="VFE_TableMachiningLarge"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VFE_TableMachiningLarge"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VFE_TableMachiningLarge"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "VFE_TableMachiningLarge"]/comps</xpath>
@@ -107,11 +119,14 @@
 		</value>
 	</Operation>
 	<!-- ========== VFE_TableStoveLarge ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="VFE_TableStoveLarge"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VFE_TableStoveLarge"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VFE_TableStoveLarge"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "VFE_TableStoveLarge"]/comps</xpath>
@@ -133,11 +148,14 @@
 		</value>
 	</Operation>
 	<!-- ========== VFE_TableTailorLarge ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="VFE_TableTailorLarge"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VFE_TableTailorLarge"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VFE_TableTailorLarge"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "VFE_TableTailorLarge"]/comps</xpath>

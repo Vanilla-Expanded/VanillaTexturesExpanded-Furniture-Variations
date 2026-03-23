@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<!-- ========== ElectricCrematorium ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="ElectricCrematorium"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ElectricCrematorium"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ElectricCrematorium"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "ElectricCrematorium"]/comps</xpath>
@@ -27,11 +30,14 @@
 		</value>
 	</Operation>
 	<!-- ========== SunLamp ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="SunLamp"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="SunLamp"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="SunLamp"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "SunLamp"]/comps</xpath>
@@ -59,11 +65,14 @@
 		</value>
 	</Operation>
 	<!-- ========== ElectricSmelter ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="ElectricSmelter"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ElectricSmelter"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ElectricSmelter"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "ElectricSmelter"]/comps</xpath>
@@ -87,11 +96,14 @@
 		</value>
 	</Operation>
 	<!-- ========== FabricationBench ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="FabricationBench"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="FabricationBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FabricationBench"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "FabricationBench"]/comps</xpath>
@@ -113,11 +125,14 @@
 		</value>
 	</Operation>
 	<!-- ========== BiofuelRefinery ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="BiofuelRefinery"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="BiofuelRefinery"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="BiofuelRefinery"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "BiofuelRefinery"]/comps</xpath>
@@ -139,11 +154,14 @@
 		</value>
 	</Operation>
 	<!-- ========== HiTechResearchBench ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="HiTechResearchBench"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="HiTechResearchBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="HiTechResearchBench"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -189,11 +207,14 @@
 		</nomatch>
 	</Operation>
 	<!-- ========== SimpleResearchBench ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="SimpleResearchBench"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="SimpleResearchBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="SimpleResearchBench"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "SimpleResearchBench"]/comps</xpath>
@@ -215,11 +236,14 @@
 		</value>
 	</Operation>
 	<!-- ========== Brewery ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Brewery"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Brewery"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Brewery"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "Brewery"]/comps</xpath>
@@ -243,11 +267,14 @@
 		</value>
 	</Operation>
 	<!-- ========== TableButcher ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="TableButcher"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="TableButcher"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="TableButcher"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "TableButcher"]/comps</xpath>
@@ -269,11 +296,14 @@
 		</value>
 	</Operation>
 	<!-- ========== DrugLab ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="DrugLab"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="DrugLab"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="DrugLab"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "DrugLab"]/comps</xpath>
@@ -295,11 +325,14 @@
 		</value>
 	</Operation>
 	<!-- ========== TableMachining ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="TableMachining"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="TableMachining"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="TableMachining"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "TableMachining"]/comps</xpath>
@@ -321,11 +354,14 @@
 		</value>
 	</Operation>
 	<!-- ========== TableSculpting ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="TableSculpting"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="TableSculpting"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="TableSculpting"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "TableSculpting"]/comps</xpath>
@@ -347,11 +383,14 @@
 		</value>
 	</Operation>
 	<!-- ========== FueledSmithy ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="FueledSmithy"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="FueledSmithy"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FueledSmithy"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "FueledSmithy"]/comps</xpath>
@@ -373,11 +412,14 @@
 		</value>
 	</Operation>
 	<!-- ========== ElectricSmithy ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="ElectricSmithy"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ElectricSmithy"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ElectricSmithy"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "ElectricSmithy"]/comps</xpath>
@@ -399,11 +441,14 @@
 		</value>
 	</Operation>
 	<!-- ========== TableStonecutter ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="TableStonecutter"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="TableStonecutter"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="TableStonecutter"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "TableStonecutter"]/comps</xpath>
@@ -425,11 +470,14 @@
 		</value>
 	</Operation>
 	<!-- ========== FueledStove ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="FueledStove"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="FueledStove"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FueledStove"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "FueledStove"]/comps</xpath>
@@ -453,11 +501,14 @@
 		</value>
 	</Operation>
 	<!-- ========== ElectricStove ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="ElectricStove"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ElectricStove"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ElectricStove"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "ElectricStove"]/comps</xpath>
@@ -481,11 +532,14 @@
 		</value>
 	</Operation>
 	<!-- ========== HandTailoringBench ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="HandTailoringBench"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="HandTailoringBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="HandTailoringBench"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "HandTailoringBench"]/comps</xpath>
@@ -507,11 +561,14 @@
 		</value>
 	</Operation>
 	<!-- ========== ElectricTailoringBench ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="ElectricTailoringBench"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ElectricTailoringBench"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ElectricTailoringBench"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "ElectricTailoringBench"]/comps</xpath>

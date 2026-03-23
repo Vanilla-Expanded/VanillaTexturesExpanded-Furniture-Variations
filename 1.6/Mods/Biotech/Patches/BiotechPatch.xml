@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<!-- ========== SchoolDesk ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="SchoolDesk"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="SchoolDesk"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="SchoolDesk"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "SchoolDesk"]/comps</xpath>
@@ -23,7 +27,7 @@
 					<li>Inset</li>
 					<li>Ornate</li>
 					<li>Separate Legs</li>
-					<li>SinglePiece</li>
+					<li>Single Piece</li>
 				</optionalNames>
 			</li>
 		</value>

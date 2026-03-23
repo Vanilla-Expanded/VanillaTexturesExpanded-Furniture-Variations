@@ -1,9 +1,13 @@
 <Patch>
-
 	<!-- ========== HorseshoesPin ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="HorseshoesPin"][not(comps)]</xpath>
-		<value><comps/></value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="HorseshoesPin"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="HorseshoesPin"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="HorseshoesPin"]/comps</xpath>
@@ -24,11 +28,15 @@
 			</li>
 		</value>
 	</Operation>
-
 	<!-- ========== ChessTable ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="ChessTable"][not(comps)]</xpath>
-		<value><comps/></value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ChessTable"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ChessTable"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="ChessTable"]/comps</xpath>
@@ -49,11 +57,15 @@
 			</li>
 		</value>
 	</Operation>
-
 	<!-- ========== PokerTable ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PokerTable"][not(comps)]</xpath>
-		<value><comps/></value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="PokerTable"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="PokerTable"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="PokerTable"]/comps</xpath>
@@ -74,11 +86,15 @@
 			</li>
 		</value>
 	</Operation>
-
 	<!-- ========== BilliardsTable ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="BilliardsTable"][not(comps)]</xpath>
-		<value><comps/></value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="BilliardsTable"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="BilliardsTable"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="BilliardsTable"]/comps</xpath>
@@ -99,11 +115,15 @@
 			</li>
 		</value>
 	</Operation>
-
 	<!-- ========== TubeTelevision ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="TubeTelevision"][not(comps)]</xpath>
-		<value><comps/></value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="TubeTelevision"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="TubeTelevision"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="TubeTelevision"]/comps</xpath>
@@ -126,5 +146,4 @@
 			</li>
 		</value>
 	</Operation>
-
 </Patch>

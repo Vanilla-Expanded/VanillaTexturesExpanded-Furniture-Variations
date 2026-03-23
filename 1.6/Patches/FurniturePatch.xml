@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<!-- ========== Table1x2c ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Table1x2c"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Table1x2c"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Table1x2c"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Table1x2c"]/comps</xpath>
@@ -39,11 +42,14 @@
 		</value>
 	</Operation>
 	<!-- ========== Table2x2c ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Table2x2c"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Table2x2c"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Table2x2c"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Table2x2c"]/comps</xpath>
@@ -75,11 +81,14 @@
 		</value>
 	</Operation>
 	<!-- ========== Table2x4c ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Table2x4c"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Table2x4c"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Table2x4c"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Table2x4c"]/comps</xpath>
@@ -111,11 +120,14 @@
 		</value>
 	</Operation>
 	<!-- ========== Table3x3c ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Table3x3c"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Table3x3c"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Table3x3c"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Table3x3c"]/comps</xpath>
@@ -147,11 +159,14 @@
 		</value>
 	</Operation>
 	<!-- ========== Stool ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Stool"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Stool"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Stool"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Stool"]/comps</xpath>
@@ -185,11 +200,14 @@
 		</value>
 	</Operation>
 	<!-- ========== DiningChair ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="DiningChair"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="DiningChair"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="DiningChair"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="DiningChair"]/comps</xpath>
@@ -218,11 +236,14 @@
 		</value>
 	</Operation>
 	<!-- ========== Armchair ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Armchair"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Armchair"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Armchair"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Armchair"]/comps</xpath>
@@ -233,21 +254,60 @@
 					<li>Things/Building/Furniture/Armchair</li>
 					<li>Things/Building/Furniture/Armchairs/VFE_ArmchairClassy</li>
 					<li>Things/Building/Furniture/Armchairs/VFE_ArmchairModern</li>
+					<li>Things/Building/Furniture/Armchairs/VFE_ArmchairOffice</li>
+					<li>Things/Building/Furniture/Armchairs/VFE_ArmchairOrnate</li>
 				</randomGraphics>
 				<optionalNames>
 					<li>Standard Armchair</li>
 					<li>Classy</li>
 					<li>Modern</li>
+					<li>Office</li>
+					<li>Ornate</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
+	<!-- ========== Couch ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Couch"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Couch"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Couch"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<useSouthOrientation>true</useSouthOrientation>
+				<randomGraphics>
+					<li>Things/Building/Furniture/Couch</li>
+					<li>Things/Building/Furniture/Armchairs/VFE_CouchClassy</li>
+					<li>Things/Building/Furniture/Armchairs/VFE_CouchModern</li>
+					<li>Things/Building/Furniture/Armchairs/VFE_CouchOffice</li>
+					<li>Things/Building/Furniture/Armchairs/VFE_CouchOrnate</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Couch</li>
+					<li>Classy</li>
+					<li>Modern</li>
+					<li>Office</li>
+					<li>Ornate</li>
 				</optionalNames>
 			</li>
 		</value>
 	</Operation>
 	<!-- ========== EndTable ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="EndTable"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="EndTable"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="EndTable"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="EndTable"]/comps</xpath>
@@ -275,11 +335,14 @@
 		</value>
 	</Operation>
 	<!-- ========== Dresser ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Dresser"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Dresser"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Dresser"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Dresser"]/comps</xpath>
@@ -306,11 +369,14 @@
 		</value>
 	</Operation>
 	<!-- ========== Column ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Column"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Column"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Column"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Column"]/comps</xpath>
@@ -338,11 +404,14 @@
 		</value>
 	</Operation>
 	<!-- ========== StandingLamp ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="StandingLamp"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="StandingLamp"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="StandingLamp"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="StandingLamp"]/comps</xpath>
@@ -372,11 +441,14 @@
 		</value>
 	</Operation>
 	<!-- ========== PlantPot ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="PlantPot"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="PlantPot"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="PlantPot"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="PlantPot"]/comps</xpath>
@@ -404,11 +476,14 @@
 		</value>
 	</Operation>
 	<!-- ========== Shelf ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Shelf"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Shelf"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Shelf"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Shelf"]/comps</xpath>
@@ -435,11 +510,14 @@
 		</value>
 	</Operation>
 	<!-- ========== ShelfSmall ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="ShelfSmall"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ShelfSmall"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ShelfSmall"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="ShelfSmall"]/comps</xpath>
@@ -466,11 +544,14 @@
 		</value>
 	</Operation>
 	<!-- ========== Bookcase ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Bookcase"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Bookcase"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bookcase"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Bookcase"]/comps</xpath>
@@ -497,11 +578,14 @@
 		</value>
 	</Operation>
 	<!-- ========== Bookcase Small ========== -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName = "BookcaseSmall"][not(comps)]</xpath>
-		<value>
-			<comps/>
-		</value>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="BookcaseSmall"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="BookcaseSmall"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "BookcaseSmall"]/comps</xpath>
@@ -523,6 +607,75 @@
 					<li>Lines</li>
 					<li>Tall</li>
 					<li>Thin</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
+	<!-- ========== Wall Lamp ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="WallLamp"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="WallLamp"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "WallLamp"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>Things/Building/Furniture/WallLamp/WallLamp</li>
+					<li>Things/Building/Furniture/WallLamp/VFE_WallLampArmoured</li>
+					<li>Things/Building/Furniture/WallLamp/VFE_WallLampCylinder</li>
+					<li>Things/Building/Furniture/WallLamp/VFE_WallLampDouble</li>
+					<li>Things/Building/Furniture/WallLamp/VFE_WallLampOffice</li>
+					<li>Things/Building/Furniture/WallLamp/VFE_WallLampSmall</li>
+					<li>Things/Building/Furniture/WallLamp/VFE_WallLampSquare</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Wall Lamp</li>
+					<li>Armoured</li>
+					<li>Cylinder</li>
+					<li>Double</li>
+					<li>Office</li>
+					<li>Small</li>
+					<li>Square</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
+	<!-- ========== Bed ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Bed"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Bed"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "Bed"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<useSouthOrientation>true</useSouthOrientation>
+				<randomGraphics>
+					<li>Things/Building/Furniture/Bed/Bed</li>
+					<li>Things/Building/Furniture/Beds/VFE_BedFlowers</li>
+					<li>Things/Building/Furniture/Beds/VFE_BedLines</li>
+					<li>Things/Building/Furniture/Beds/VFE_BedPillows</li>
+					<li>Things/Building/Furniture/Beds/VFE_BedPointy</li>
+					<li>Things/Building/Furniture/Beds/VFE_BedRoundPattern</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Bed</li>
+					<li>Flower patterns</li>
+					<li>Linear patterns</li>
+					<li>Two Pillows</li>
+					<li>Ornate</li>
+					<li>Round patterns</li>
 				</optionalNames>
 			</li>
 		</value>
