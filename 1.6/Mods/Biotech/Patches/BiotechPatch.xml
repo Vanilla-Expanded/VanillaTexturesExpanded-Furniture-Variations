@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<!-- ========== SchoolDesk ========== -->
-	
 	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/ThingDef[defName="SchoolDesk"]/comps</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -21,6 +20,7 @@
 					<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskOrnate</li>
 					<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskSeparateLegs</li>
 					<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskSinglePiece</li>
+					<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskRound</li>
 				</randomGraphics>
 				<optionalNames>
 					<li>Standard School Desk</li>
@@ -28,6 +28,7 @@
 					<li>Ornate</li>
 					<li>Separate Legs</li>
 					<li>Single Piece</li>
+					<li>Round</li>
 				</optionalNames>
 			</li>
 		</value>

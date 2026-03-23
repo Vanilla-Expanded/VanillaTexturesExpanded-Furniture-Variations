@@ -680,4 +680,36 @@
 			</li>
 		</value>
 	</Operation>
+	<!-- ========== Double Bed ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="DoubleBed"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="DoubleBed"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "DoubleBed"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<useSouthOrientation>true</useSouthOrientation>
+				<randomGraphics>
+					<li>Things/Building/Furniture/Bed/DoubleBed</li>
+					<li>Things/Building/Furniture/Beds/VFE_DoubleBedRoundFlowers</li>
+					<li>Things/Building/Furniture/Beds/VFE_DoubleBedRoundLines</li>
+					<li>Things/Building/Furniture/Beds/VFE_DoubleBedOrnate</li>
+					<li>Things/Building/Furniture/Beds/VFE_DoubleBedRoundPattern</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Bed</li>
+					<li>Flower patterns</li>
+					<li>Linear patterns</li>
+					<li>Ornate</li>
+					<li>Round patterns</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
 </Patch>
