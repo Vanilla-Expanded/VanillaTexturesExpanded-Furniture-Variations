@@ -440,6 +440,39 @@
 			</li>
 		</value>
 	</Operation>
+	<!-- ========== TorchLamp ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="TorchLamp"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="TorchLamp"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="TorchLamp"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>Things/Building/Misc/TorchLamp</li>
+					<li>Things/Building/Furniture/Lamps/VFE_TorchLampArmoured</li>
+					<li>Things/Building/Furniture/Lamps/VFE_TorchLampBowl</li>
+					<li>Things/Building/Furniture/Lamps/VFE_TorchLampWide</li>
+					<li>Things/Building/Furniture/Lamps/VFE_TorchLampModern</li>
+					<li>Things/Building/Furniture/Lamps/VFE_TorchLampCage</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Torch Lamp</li>
+					<li>Armoured</li>
+					<li>Bowl</li>
+					<li>Wide</li>
+					<li>Modern</li>
+					<li>Cage</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
 	<!-- ========== PlantPot ========== -->
 	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/ThingDef[defName="PlantPot"]/comps</xpath>
@@ -633,6 +666,7 @@
 					<li>Things/Building/Furniture/WallLamp/VFE_WallLampOffice</li>
 					<li>Things/Building/Furniture/WallLamp/VFE_WallLampSmall</li>
 					<li>Things/Building/Furniture/WallLamp/VFE_WallLampSquare</li>
+					<li>Things/Building/Furniture/WallLamp/VFE_WallLampCage</li>
 				</randomGraphics>
 				<optionalNames>
 					<li>Standard Wall Lamp</li>
@@ -642,6 +676,40 @@
 					<li>Office</li>
 					<li>Small</li>
 					<li>Square</li>
+					<li>Cage</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
+	<!-- ========== Wall Torch Lamp ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="TorchWallLamp"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="TorchWallLamp"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "TorchWallLamp"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>Things/Building/Misc/WallTorch/WallTorch</li>
+					<li>Things/Building/Furniture/WallLamp/VFE_WallTorchWide</li>
+					<li>Things/Building/Furniture/WallLamp/VFE_WallTorchArmoured</li>
+					<li>Things/Building/Furniture/WallLamp/VFE_WallTorchBowl</li>
+					<li>Things/Building/Furniture/WallLamp/VFE_WallTorchModern</li>
+					<li>Things/Building/Furniture/WallLamp/VFE_WallTorchCage</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Wall Torch Lamp</li>
+					<li>Wide</li>
+					<li>Armoured</li>
+					<li>Bowl</li>
+					<li>Modern</li>
+					<li>Cage</li>
 				</optionalNames>
 			</li>
 		</value>
@@ -703,11 +771,43 @@
 					<li>Things/Building/Furniture/Beds/VFE_DoubleBedRoundPattern</li>
 				</randomGraphics>
 				<optionalNames>
-					<li>Standard Bed</li>
+					<li>Standard Double Bed</li>
 					<li>Flower patterns</li>
 					<li>Linear patterns</li>
 					<li>Ornate</li>
 					<li>Round patterns</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
+	<!-- ========== HospitalBed ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="HospitalBed"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="HospitalBed"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "HospitalBed"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<useSouthOrientation>true</useSouthOrientation>
+				<randomGraphics>
+					<li>Things/Building/Furniture/Bed/HospitalBed</li>
+					<li>Things/Building/Furniture/Beds/VFE_HospitalBedFoodTray</li>
+					<li>Things/Building/Furniture/Beds/VFE_HospitalBedOrnate</li>
+					<li>Things/Building/Furniture/Beds/VFE_HospitalBedSteelFramed</li>
+					
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Hospital Bed</li>
+					<li>Food Tray</li>
+					<li>Ornate</li>
+					<li>Steel Framed</li>
+					
 				</optionalNames>
 			</li>
 		</value>
