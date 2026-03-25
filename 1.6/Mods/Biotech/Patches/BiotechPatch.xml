@@ -33,5 +33,36 @@
 			</li>
 		</value>
 	</Operation>
+	<!-- ========== ToxifierGenerator ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ToxifierGenerator"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ToxifierGenerator"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "ToxifierGenerator"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>Things/Building/Power/ToxifierGenerator</li>
+					<li>Things/Building/Power/ToxifierGenerator/VFE_ToxifierGeneratorClassic</li>
+					<li>Things/Building/Power/ToxifierGenerator/VFE_ToxifierGeneratorDodecagonal</li>
+					<li>Things/Building/Power/ToxifierGenerator/VFE_ToxifierGeneratorRound</li>
+					<li>Things/Building/Power/ToxifierGenerator/VFE_ToxifierGeneratorTriple</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Toxifier Generator</li>
+					<li>Classic</li>
+					<li>Dodecagonal</li>
+					<li>Round</li>
+					<li>Triple</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
 </Patch>
 

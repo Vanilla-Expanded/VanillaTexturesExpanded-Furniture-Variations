@@ -17,5 +17,6 @@
 		<li IfModActive="VanillaExpanded.VFEPower">1.6/Mods/VFEPower</li>
 		<li IfModActive="VanillaExpanded.VFEProduction">1.6/Mods/VFEProduction</li>
 		<li IfModActive="Ludeon.RimWorld.Biotech">1.6/Mods/Biotech</li>
+		<li IfModActive="Ludeon.RimWorld.Anomaly">1.6/Mods/Anomaly</li>
 	</v1.6>
 </loadFolders>
