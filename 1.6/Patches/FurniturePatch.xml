@@ -667,6 +667,7 @@
 					<li>Things/Building/Furniture/WallLamp/VFE_WallLampSmall</li>
 					<li>Things/Building/Furniture/WallLamp/VFE_WallLampSquare</li>
 					<li>Things/Building/Furniture/WallLamp/VFE_WallLampCage</li>
+					<li>Things/Building/Furniture/WallLamp/VFEWallLamp</li>
 				</randomGraphics>
 				<optionalNames>
 					<li>Standard Wall Lamp</li>
@@ -677,6 +678,7 @@
 					<li>Small</li>
 					<li>Square</li>
 					<li>Cage</li>
+					<li>Ancient Vault</li>
 				</optionalNames>
 			</li>
 		</value>
@@ -736,6 +738,7 @@
 					<li>Things/Building/Furniture/Beds/VFE_BedPillows</li>
 					<li>Things/Building/Furniture/Beds/VFE_BedPointy</li>
 					<li>Things/Building/Furniture/Beds/VFE_BedRoundPattern</li>
+					<li>Things/Building/Furniture/Beds/AncientSingleBed</li>
 				</randomGraphics>
 				<optionalNames>
 					<li>Standard Bed</li>
@@ -744,6 +747,7 @@
 					<li>Two Pillows</li>
 					<li>Ornate</li>
 					<li>Round patterns</li>
+					<li>Ancient Vault</li>
 				</optionalNames>
 			</li>
 		</value>
@@ -800,14 +804,14 @@
 					<li>Things/Building/Furniture/Beds/VFE_HospitalBedFoodTray</li>
 					<li>Things/Building/Furniture/Beds/VFE_HospitalBedOrnate</li>
 					<li>Things/Building/Furniture/Beds/VFE_HospitalBedSteelFramed</li>
-					
+					<li>Things/Building/Furniture/Beds/AncientCryptosleepSuspender</li>
 				</randomGraphics>
 				<optionalNames>
 					<li>Standard Hospital Bed</li>
 					<li>Food Tray</li>
 					<li>Ornate</li>
 					<li>Steel Framed</li>
-					
+					<li>Ancient Crypto Suspender</li>
 				</optionalNames>
 			</li>
 		</value>

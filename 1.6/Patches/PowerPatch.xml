@@ -22,6 +22,7 @@
 					<li>Things/Building/Power/GeothermalPlants/VFE_GeothermalPlant_Round</li>
 					<li>Things/Building/Power/GeothermalPlants/VFE_GeothermalPlant_Circle</li>
 					<li>Things/Building/Power/GeothermalPlants/VFE_GeothermalPlant_Hexagon</li>
+					<li>Things/Building/Power/GeothermalPlants/AncientGeothermalPlant</li>
 				</randomGraphics>
 				<optionalNames>
 					<li>Standard Geothermal Generator</li>
@@ -31,6 +32,7 @@
 					<li>Round</li>
 					<li>Circle</li>
 					<li>Hexagon</li>
+					<li>Ancient Vault</li>
 				</optionalNames>
 			</li>
 		</value>
@@ -57,6 +59,7 @@
 					<li>Things/Building/Power/SolarCollectors/VFE_SolarCollector_SinglePanel</li>
 					<li>Things/Building/Power/SolarCollectors/VFE_SolarCollector_Circle</li>
 					<li>Things/Building/Power/SolarCollectors/VFE_SolarCollector_Hexagon</li>
+					<li>Things/Building/Power/SolarCollectors/AncientSolarGenerator</li>
 				</randomGraphics>
 				<optionalNames>
 					<li>Standard Solar Generator</li>
@@ -66,6 +69,7 @@
 					<li>Single Panel</li>
 					<li>Circle</li>
 					<li>Hexagon</li>
+					<li>Ancient Vault</li>
 				</optionalNames>
 			</li>
 		</value>
@@ -89,12 +93,14 @@
 					<li>Things/Building/Power/Batteries/VFE_Battery_Hexagon</li>
 					<li>Things/Building/Power/Batteries/VFE_Battery_Quad</li>
 					<li>Things/Building/Power/Batteries/VFE_Battery_Round</li>
+					<li>Things/Building/Power/Batteries/AncientBattery</li>
 				</randomGraphics>
 				<optionalNames>
 					<li>Standard Battery</li>
 					<li>Hexagon</li>
 					<li>Quad</li>
 					<li>Round</li>
+					<li>Ancient Vault</li>
 				</optionalNames>
 			</li>
 		</value>
@@ -150,6 +156,7 @@
 					<li>Things/Building/Power/Generators/VFE_ChemfuelPoweredGenerator_Double</li>
 					<li>Things/Building/Power/Generators/VFE_ChemfuelPoweredGenerator_OldStyle</li>
 					<li>Things/Building/Power/Generators/VFE_ChemfuelPoweredGenerator_Turbo</li>
+					<li>Things/Building/Power/Generators/AncientChemfuelGenerator</li>
 				</randomGraphics>
 				<optionalNames>
 					<li>Standard Chemfuel Generator</li>
@@ -157,6 +164,7 @@
 					<li>Double</li>
 					<li>Old Style</li>
 					<li>Turbo</li>
+					<li>Ancient Vault</li>
 				</optionalNames>
 			</li>
 		</value>
