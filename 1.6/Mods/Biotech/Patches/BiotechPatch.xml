@@ -64,5 +64,37 @@
 			</li>
 		</value>
 	</Operation>
+	<!-- ========== Crib ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Crib"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Crib"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Crib"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<useSouthOrientation>true</useSouthOrientation>
+				<randomGraphics>
+					<li>Things/Building/Childcare/Crib/Crib</li>
+					<li>Things/Building/Furniture/Cribs/VFE_CribOval</li>
+					<li>Things/Building/Furniture/Cribs/VFE_CribRoundCorners</li>
+					<li>Things/Building/Furniture/Cribs/VFE_CribRoundOrnate</li>
+					<li>Things/Building/Furniture/Cribs/VFE_CribRoundStripped</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Crib</li>
+					<li>Oval</li>
+					<li>Round Corners</li>
+					<li>Ornate</li>
+					<li>Stripped</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
 </Patch>
 
