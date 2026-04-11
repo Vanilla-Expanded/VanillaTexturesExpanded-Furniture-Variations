@@ -233,4 +233,35 @@
 			</li>
 		</value>
 	</Operation>
+	<!-- ========== Heater ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Heater"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Heater"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Heater"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>Things/Building/Misc/TempControl/Heater</li>
+					<li>Things/Building/Misc/Heaters/VFE_HeaterDouble</li>
+					<li>Things/Building/Misc/Heaters/VFE_HeaterGrills</li>
+					<li>Things/Building/Misc/Heaters/VFE_HeaterRound</li>
+					<li>Things/Building/Misc/Heaters/VFE_HeaterTriple</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Heater</li>
+					<li>Double</li>
+					<li>Grilled</li>
+					<li>Round</li>
+					<li>Triple</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
 </Patch>

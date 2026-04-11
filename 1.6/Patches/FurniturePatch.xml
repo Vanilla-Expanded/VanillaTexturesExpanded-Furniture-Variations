@@ -816,4 +816,36 @@
 			</li>
 		</value>
 	</Operation>
+	<!-- ========== AnimalSleepingBox ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AnimalSleepingBox"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AnimalSleepingBox"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "AnimalSleepingBox"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				
+				<randomGraphics>
+					<li>Things/Building/Misc/AnimalBed/AnimalSleepBox</li>
+					<li>Things/Building/Furniture/AnimalSleepingBoxes/VFE_AnimalSleepingBoxOrnate</li>
+						<li>Things/Building/Furniture/AnimalSleepingBoxes/VFE_AnimalSleepingBoxRound</li>
+							<li>Things/Building/Furniture/AnimalSleepingBoxes/VFE_AnimalSleepingBoxRoundCorners</li>
+								<li>Things/Building/Furniture/AnimalSleepingBoxes/VFE_AnimalSleepingBoxStripped</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Animal Sleeping Box</li>
+					<li>Ornate</li>
+					<li>Round</li>
+					<li>Round Corners</li>
+					<li>Stripped</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
 </Patch>

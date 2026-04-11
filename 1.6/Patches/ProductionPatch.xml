@@ -589,4 +589,35 @@
 			</li>
 		</value>
 	</Operation>
+	<!-- ========== FermentingBarrel ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="FermentingBarrel"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FermentingBarrel"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "FermentingBarrel"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>Things/Building/Production/FermentingBarrel</li>
+					<li>Things/Building/Production/FermentingBarrels/VFE_FermentingBarrelMetal</li>
+					<li>Things/Building/Production/FermentingBarrels/VFE_FermentingBarrelClassic</li>
+					<li>Things/Building/Production/FermentingBarrels/VFE_FermentingBarrelBright</li>
+					<li>Things/Building/Production/FermentingBarrels/VFE_FermentingBarrelBirch</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Fermenting Barrel</li>
+					<li>Metal</li>
+					<li>Classic</li>
+					<li>Bright</li>
+					<li>Birch</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
 </Patch>
