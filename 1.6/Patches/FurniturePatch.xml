@@ -879,4 +879,38 @@
 			</li>
 		</value>
 	</Operation>
+	
+	<!-- ========== FloodLight ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="FloodLight"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="FloodLight"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "FloodLight"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>Things/Building/Furniture/FloodLight</li>
+					<li>Things/Building/Furniture/Lamps/VFE_FloodLightDouble</li>
+					<li>Things/Building/Furniture/Lamps/VFE_FloodLightLamp</li>
+					<li>Things/Building/Furniture/Lamps/VFE_FloodLightLighBulbs</li>
+					<li>Things/Building/Furniture/Lamps/VFE_FloodLightPost</li>
+					<li>Things/Building/Furniture/Lamps/VFE_FloodLightQuadruple</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Flood Light</li>
+					<li>Double</li>
+					<li>Lamp Post</li>
+					<li>Light Bulbs</li>
+					<li>Tall Post</li>
+					<li>Quadruple</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
 </Patch>
