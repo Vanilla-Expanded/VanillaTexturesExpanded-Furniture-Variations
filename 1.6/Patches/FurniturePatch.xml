@@ -773,6 +773,7 @@
 					<li>Things/Building/Furniture/Beds/VFE_DoubleBedRoundLines</li>
 					<li>Things/Building/Furniture/Beds/VFE_DoubleBedOrnate</li>
 					<li>Things/Building/Furniture/Beds/VFE_DoubleBedRoundPattern</li>
+					<li>Things/Building/Furniture/Beds/VFE_DoubleBedSinglePillow</li>
 				</randomGraphics>
 				<optionalNames>
 					<li>Standard Double Bed</li>
@@ -780,6 +781,7 @@
 					<li>Linear patterns</li>
 					<li>Ornate</li>
 					<li>Round patterns</li>
+					<li>Single Pillow</li>
 				</optionalNames>
 			</li>
 		</value>
@@ -830,13 +832,12 @@
 		<xpath>/Defs/ThingDef[defName = "AnimalSleepingBox"]/comps</xpath>
 		<value>
 			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
-				
 				<randomGraphics>
 					<li>Things/Building/Misc/AnimalBed/AnimalSleepBox</li>
 					<li>Things/Building/Furniture/AnimalSleepingBoxes/VFE_AnimalSleepingBoxOrnate</li>
-						<li>Things/Building/Furniture/AnimalSleepingBoxes/VFE_AnimalSleepingBoxRound</li>
-							<li>Things/Building/Furniture/AnimalSleepingBoxes/VFE_AnimalSleepingBoxRoundCorners</li>
-								<li>Things/Building/Furniture/AnimalSleepingBoxes/VFE_AnimalSleepingBoxStripped</li>
+					<li>Things/Building/Furniture/AnimalSleepingBoxes/VFE_AnimalSleepingBoxRound</li>
+					<li>Things/Building/Furniture/AnimalSleepingBoxes/VFE_AnimalSleepingBoxRoundCorners</li>
+					<li>Things/Building/Furniture/AnimalSleepingBoxes/VFE_AnimalSleepingBoxStripped</li>
 				</randomGraphics>
 				<optionalNames>
 					<li>Standard Animal Sleeping Box</li>
@@ -844,6 +845,36 @@
 					<li>Round</li>
 					<li>Round Corners</li>
 					<li>Stripped</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
+	<!-- ========== Royal Bed ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="RoyalBed"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="RoyalBed"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "RoyalBed"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<useSouthOrientation>true</useSouthOrientation>
+				<randomGraphics>
+					<li>Things/Building/Furniture/Bed/RoyalBed</li>
+					<li>Things/Building/Furniture/Beds/VFE_RoyalBedOrnate</li>
+					<li>Things/Building/Furniture/Beds/VFE_RoyalBedStripped</li>
+					<li>Things/Building/Furniture/Beds/VFE_RoyalBedSinglePillow</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Royal Bed</li>
+					<li>Ornate</li>
+					<li>Stripped</li>
+					<li>Single Pillow</li>
 				</optionalNames>
 			</li>
 		</value>

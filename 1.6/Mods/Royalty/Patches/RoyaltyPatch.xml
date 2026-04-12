@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- ========== Brazier ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Brazier"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Brazier"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Brazier"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>Things/Building/Misc/Brazier</li>
+					<li>Things/Building/Furniture/Braziers/VFE_BrazierModern</li>
+					<li>Things/Building/Furniture/Braziers/VFE_BrazierOrnate</li>
+					<li>Things/Building/Furniture/Braziers/VFE_BrazierSquare</li>
+					<li>Things/Building/Furniture/Braziers/VFE_BrazierSquareWithLegs</li>
+					<li>Things/Building/Furniture/Braziers/VFE_BrazierThin</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Brazier</li>
+					<li>Modern</li>
+					<li>Ornate</li>
+					<li>Square</li>
+					<li>Square with legs</li>
+					<li>Thin</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!-- ========== DarklightBrazier ========== -->
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/ThingDef[defName="DarklightBrazier"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="DarklightBrazier"]</xpath>
+						<value>
+							<comps/>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "DarklightBrazier"]/comps</xpath>
+					<value>
+						<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+							<randomGraphics>
+								<li>Things/Building/Misc/DarklightBrazier</li>
+								<li>Things/Building/Furniture/Braziers/VFE_DarklightBrazierModern</li>
+								<li>Things/Building/Furniture/Braziers/VFE_DarklightBrazierOrnate</li>
+								<li>Things/Building/Furniture/Braziers/VFE_DarklightBrazierSquare</li>
+								<li>Things/Building/Furniture/Braziers/VFE_DarklightBrazierSquareWithLegs</li>
+								<li>Things/Building/Furniture/Braziers/VFE_DarklightBrazierThin</li>
+							</randomGraphics>
+							<optionalNames>
+								<li>Standard Darklight Brazier</li>
+								<li>Modern</li>
+								<li>Ornate</li>
+								<li>Square</li>
+								<li>Square with legs</li>
+								<li>Thin</li>
+							</optionalNames>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+
