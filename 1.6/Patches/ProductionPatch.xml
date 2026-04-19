@@ -620,4 +620,36 @@
 			</li>
 		</value>
 	</Operation>
+	
+	<!-- ========== HydroponicsBasin ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="HydroponicsBasin"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="HydroponicsBasin"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "HydroponicsBasin"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>Things/Building/Production/HydroponicsBasin</li>
+					<li>Things/Building/Production/HydroponicsBasin/VFE_HydroponicsBasinGrass</li>
+					<li>Things/Building/Production/HydroponicsBasin/VFE_HydroponicsBasinOval</li>
+					<li>Things/Building/Production/HydroponicsBasin/VFE_HydroponicsBasinRoundPegs</li>
+					<li>Things/Building/Production/HydroponicsBasin/VFE_HydroponicsBasinSoil</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Hydroponics Basin</li>
+					<li>Grass Basins</li>
+					<li>Oval</li>
+					<li>Round Pegs</li>
+					<li>Soil covered in glass panels</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
 </Patch>

@@ -149,4 +149,38 @@
 			</value>
 		</nomatch>
 	</Operation>
+	
+	<!-- ========== OrnateDoor ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="OrnateDoor"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="OrnateDoor"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OrnateDoor"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>Things/Building/OrnateDoor/OrnateDoor2x1_Mover</li>
+					<li>Things/Building/Door/VFE_OrnateDoorModern</li>
+					<li>Things/Building/Door/VFE_OrnateDoorArabic</li>
+					<li>Things/Building/Door/VFE_OrnateDoorClassic</li>
+					<li>Things/Building/Door/VFE_OrnateDoorHinges</li>
+					<li>Things/Building/Door/VFE_OrnateDoorGoldPlated</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Ornate Door</li>
+					<li>Modern</li>
+					<li>Arabic</li>
+					<li>Classic</li>
+					<li>Large Hinges</li>
+					<li>Gold Plated</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
 </Patch>
