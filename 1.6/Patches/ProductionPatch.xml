@@ -652,4 +652,35 @@
 			</li>
 		</value>
 	</Operation>
+	<!-- ========== DeepDrill ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="DeepDrill"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="DeepDrill"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="DeepDrill"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>Things/Building/Production/DeepDrill</li>
+					<li>Things/Building/Production/DeepDrills/VFE_DeepDrillAlternate</li>
+					<li>Things/Building/Production/DeepDrills/VFE_DeepDrillSquare</li>
+					<li>Things/Building/Production/DeepDrills/VFE_DeepDrillSupports</li>
+					<li>Things/Building/Production/DeepDrills/VFE_DeepDrillTriple</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Deep Drill</li>
+					<li>Alternate</li>
+					<li>Square</li>
+					<li>Supports</li>
+					<li>Triple</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
 </Patch>
