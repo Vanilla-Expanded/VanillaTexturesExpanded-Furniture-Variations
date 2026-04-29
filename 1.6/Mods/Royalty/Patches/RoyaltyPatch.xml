@@ -75,5 +75,37 @@
 			</operations>
 		</match>
 	</Operation>
+	<!-- ========== Drape ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Drape"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Drape"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Drape"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<useSouthOrientation>true</useSouthOrientation>
+				<randomGraphics>
+					<li>Things/Building/Furniture/Drape</li>
+					<li>Things/Building/Furniture/Drapes/VFE_DrapeDense</li>
+					<li>Things/Building/Furniture/Drapes/VFE_DrapeGolden</li>
+					<li>Things/Building/Furniture/Drapes/VFE_DrapeSparse</li>
+					
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Drape</li>
+					<li>Dense</li>
+					<li>Golden</li>
+					<li>Sparse</li>
+					
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
 </Patch>
 
