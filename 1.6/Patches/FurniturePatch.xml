@@ -213,6 +213,7 @@
 		<xpath>Defs/ThingDef[defName="DiningChair"]/comps</xpath>
 		<value>
 			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				
 				<useSouthOrientation>true</useSouthOrientation>
 				<randomGraphics>
 					<li>Things/Building/Furniture/DiningChair</li>
@@ -454,6 +455,7 @@
 		<xpath>Defs/ThingDef[defName="TorchLamp"]/comps</xpath>
 		<value>
 			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<onlyApplyToThisDef>TorchLamp</onlyApplyToThisDef>
 				<randomGraphics>
 					<li>Things/Building/Misc/TorchLamp</li>
 					<li>Things/Building/Furniture/Lamps/VFE_TorchLampArmoured</li>
@@ -731,6 +733,7 @@
 		<value>
 			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 				<useSouthOrientation>true</useSouthOrientation>
+				<onlyApplyToThisDef>Bed</onlyApplyToThisDef>
 				<randomGraphics>
 					<li>Things/Building/Furniture/Bed/Bed</li>
 					<li>Things/Building/Furniture/Beds/VFE_BedFlowers</li>
@@ -767,6 +770,7 @@
 		<value>
 			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 				<useSouthOrientation>true</useSouthOrientation>
+				<onlyApplyToThisDef>DoubleBed</onlyApplyToThisDef>
 				<randomGraphics>
 					<li>Things/Building/Furniture/Bed/DoubleBed</li>
 					<li>Things/Building/Furniture/Beds/VFE_DoubleBedRoundFlowers</li>

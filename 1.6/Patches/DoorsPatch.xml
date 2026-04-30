@@ -93,6 +93,7 @@
 			<xpath>Defs/ThingDef[defName="Door"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<onlyApplyToThisDef>Door</onlyApplyToThisDef>
 					<randomGraphics>
 						<li>Things/Building/Door/SimpleDoor</li>
 						<li>Things/Building/Door/VFE_DoorHorizontalLines_Mover</li>
@@ -123,6 +124,7 @@
 			<xpath>Defs/ThingDef[defName="Door"]/comps</xpath>
 			<value>
 				<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+					<onlyApplyToThisDef>Door</onlyApplyToThisDef>
 					<randomGraphics>
 						<li>Things/Building/Door/DoorSimple_Mover</li>
 						<li>Things/Building/Door/VFE_DoorHorizontalLines_Mover</li>
