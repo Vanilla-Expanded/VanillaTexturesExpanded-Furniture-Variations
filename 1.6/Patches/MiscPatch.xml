@@ -77,9 +77,9 @@
 			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
 				<randomGraphics>
 					<li>Things/Building/Misc/PassiveCooler</li>
-					<li>Things/Building/Misc/DropBeacons/VFE_PassiveCooler_Hexagonal</li>
-					<li>Things/Building/Misc/DropBeacons/VFE_PassiveCooler_Hole</li>
-					<li>Things/Building/Misc/DropBeacons/VFE_PassiveCooler_Round</li>
+					<li>Things/Building/Misc/PassiveCoolers/VFE_PassiveCooler_Hexagonal</li>
+					<li>Things/Building/Misc/PassiveCoolers/VFE_PassiveCooler_Hole</li>
+					<li>Things/Building/Misc/PassiveCoolers/VFE_PassiveCooler_Round</li>
 				</randomGraphics>
 				<optionalNames>
 					<li>Standard Passive Cooler</li>
