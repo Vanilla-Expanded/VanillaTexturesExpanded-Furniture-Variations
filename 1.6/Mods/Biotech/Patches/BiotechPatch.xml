@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- ========== SchoolDesk ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="SchoolDesk"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="SchoolDesk"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "SchoolDesk"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>Things/Building/Childcare/LessonDesk/LessonDesk</li>
+					<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskInset</li>
+					<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskOrnate</li>
+					<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskSeparateLegs</li>
+					<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskSinglePiece</li>
+					<li>Things/Building/Furniture/LessonDesk/VFE_LessonDeskRound</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard School Desk</li>
+					<li>Inset</li>
+					<li>Ornate</li>
+					<li>Separate Legs</li>
+					<li>Single Piece</li>
+					<li>Round</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
+	<!-- ========== ToxifierGenerator ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="ToxifierGenerator"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="ToxifierGenerator"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "ToxifierGenerator"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>Things/Building/Power/ToxifierGenerator</li>
+					<li>Things/Building/Power/ToxifierGenerator/VFE_ToxifierGeneratorClassic</li>
+					<li>Things/Building/Power/ToxifierGenerator/VFE_ToxifierGeneratorDodecagonal</li>
+					<li>Things/Building/Power/ToxifierGenerator/VFE_ToxifierGeneratorRound</li>
+					<li>Things/Building/Power/ToxifierGenerator/VFE_ToxifierGeneratorTriple</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Toxifier Generator</li>
+					<li>Classic</li>
+					<li>Dodecagonal</li>
+					<li>Round</li>
+					<li>Triple</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
+	<!-- ========== Crib ========== -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Crib"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Crib"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Crib"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<useSouthOrientation>true</useSouthOrientation>
+				<randomGraphics>
+					<li>Things/Building/Childcare/Crib/Crib</li>
+					<li>Things/Building/Furniture/Cribs/VFE_CribOval</li>
+					<li>Things/Building/Furniture/Cribs/VFE_CribRoundCorners</li>
+					<li>Things/Building/Furniture/Cribs/VFE_CribRoundOrnate</li>
+					<li>Things/Building/Furniture/Cribs/VFE_CribRoundStripped</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Crib</li>
+					<li>Oval</li>
+					<li>Round Corners</li>
+					<li>Ornate</li>
+					<li>Stripped</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
+</Patch>
+

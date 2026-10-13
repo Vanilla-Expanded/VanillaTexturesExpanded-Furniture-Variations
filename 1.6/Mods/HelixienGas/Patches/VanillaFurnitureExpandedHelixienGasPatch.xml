@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- ========== VHGE_HelixienPump ========== -->
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="VHGE_HelixienPump"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="VHGE_HelixienPump"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "VHGE_HelixienPump"]/comps</xpath>
+		<value>
+			<li Class="VEF.Buildings.CompProperties_RandomBuildingGraphic">
+				<randomGraphics>
+					<li>Things/Building/GasMachines/HelixienPump</li>
+					<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Double</li>
+					<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Round</li>
+					<li>Things/Building/VFEPower/GasMachines/VEF_HelixienPump_Triple</li>
+				</randomGraphics>
+				<optionalNames>
+					<li>Standard Helixien Pump</li>
+					<li>Double</li>
+					<li>Round</li>
+					<li>Triple</li>
+				</optionalNames>
+			</li>
+		</value>
+	</Operation>
+</Patch>
+
